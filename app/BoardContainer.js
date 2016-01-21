@@ -20,9 +20,9 @@ class BoardContainer extends React.Component {
 			var temp = [];
 			self.state.storyBoards.forEach(function(sb) {
 				var topic = sb['Topic'];
-				var org   = sb['Organization'];
+				var org   = sb['user'];
 				var type  = sb['Type'];
-				var title = sb['Title'].toLocaleLowerCase();
+				var title = sb['repo'].toLocaleLowerCase();
 				var flag  = true;
 
 				if(filter !== null && filter.topic !== '0' && TOPICS[filter.topic].label !== topic) {

@@ -9,10 +9,20 @@ var fs        = require('fs'),
 		timeout: 5000
 	});
 
-var out  = [];
+github.authenticate({
+    type: 'oauth',
+    token: ''
+});
+
+var out = [],
+	ws  = fs.createWriteStream(__dirname + '/../app/data.csv');
+
+ws.on('finish', function() {
+	console.log('Done updating.');
+});
 
 var init = function () {
-	var file   = __dirname + '/data.csv',
+	var file   = __dirname + '/list.csv',
 		list   = [],
 		stream = fs.createReadStream(file),
 		input  = csv.fromStream(stream, {headers: true})
@@ -30,8 +40,6 @@ var update = function(list, ind) {
 		return;
 	}
 
-	var entry = {};
-
 	github.repos.get({
 		user: list[ind].user,
 		repo: list[ind].repo
@@ -40,6 +48,9 @@ var update = function(list, ind) {
 			console.error(err);
 		}
 		else {
+			var entry = {};
+			entry.user = list[ind].user;
+			entry.repo = list[ind].repo;
 			entry.html_url = res.html_url;
 			entry.description = res.description;
 			entry.watch = res.subscribers_count;
@@ -47,15 +58,15 @@ var update = function(list, ind) {
 			entry.forks = res.forks;
 			console.log(entry);
 			out.push(entry);
-			update(list, ++ind);
 		}
+		ind++;
+		update(list, ind);
 	});
 
 };
 
 var save = function() {
-	// TODO
-	console.log('save');
+	csv.write(out, {headers: true}).pipe(ws);
 };
 
 init();

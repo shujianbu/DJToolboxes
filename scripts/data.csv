@@ -1,1 +1,16 @@
-id,user,repo,notes1,NYTimes,objective-c-style-guide,none2,guardian​,frontend,none3,newsapps​,beeswithmachineguns,none4,BloombergMedia​,whatiscode,none5,fivethirtyeight​,data,none6,nprapps​,app-template,none7,voxmedia​,meme,none8,propublica​,guides,none9,TimeMagazine​,babynames,none10,censusreporter​,censusreporter,none11,datadesk​,python-elections,none12,BuzzFeedNews​,2014-06-bikeshare-gender-maps,none13,huffpostdata​,ap-election-loader,none14,ajam​,2014_payday-nation-data,none15,dukechronicle,chronline,none​16,mbostock​,d3,none17,nnnick​,Chart.js,none18,Leaflet​,Leaflet,none19,ecomfe​,echarts,none20,gionkunz​,chart0st-js,none21,jacomyal​,sigma.js,none22,mozilla​,metrics-graphics,none23,dc-js​,dc.js,none24,epochjs​,epoch,none25,vega​,vega,none26,benpickles​,peity,none27,densitydesign​,raw,none28,matplotlib​,matplotlib,none29,gka​,chroma.js,none30,samizdatco,arbor,none​31,Boris-Em​,BEMSimpleLineGraph,none32,okfn​,recline,none33,PMSI-AlignAlytics​,dimple,none34,HumbleSoftware​,envisionjs,none35,kartograph​,kartograph.js,none36,Kozea​,pygal,none37,AnalyticalGraphicsInc​,cesium,none38,stamen​,modestmaps-js,none
+user,repo,html_url,description,watch,star,forks
+NYTimes,objective-c-style-guide,https://github.com/NYTimes/objective-c-style-guide,The Objective-C Style Guide used by The New York Times,283,3747,817
+guardian,frontend,https://github.com/guardian/frontend,Source for theguardian.com,173,3082,310
+newsapps,beeswithmachineguns,https://github.com/newsapps/beeswithmachineguns,A utility for arming (creating) many bees (micro EC2 instances) to attack (load test) targets (web applications).,146,2968,333
+BloombergMedia,whatiscode,https://github.com/BloombergMedia/whatiscode,Paul Ford’s “What Is Code?”,100,2508,189
+fivethirtyeight,data,https://github.com/fivethirtyeight/data,Data and code behind the stories and interactives at FiveThirtyEight,451,2042,819
+nprapps,app-template,https://github.com/nprapps/app-template,"The NPR visuals team's opinionated project template for client-side apps.",88,1041,144
+voxmedia,meme,https://github.com/voxmedia/meme,Meme generator,127,595,202
+propublica,guides,https://github.com/propublica/guides,"ProPublica's News App and Data Style Guides",79,404,88
+TimeMagazine,babynames,https://github.com/TimeMagazine/babynames,"Fun with the Social Security Administration's baby name data",26,184,45
+censusreporter,censusreporter,https://github.com/censusreporter/censusreporter,Census Reporter is a Knight News Challenge-funded project to make it easier for journalists to write stories using information from the U.S. Census bureau.,27,128,55
+datadesk,python-elections,https://github.com/datadesk/python-elections,"A Python wrapper for the Associated Press' U.S. election data service.",56,119,28
+BuzzFeedNews,2014-06-bikeshare-gender-maps,https://github.com/BuzzFeedNews/2014-06-bikeshare-gender-maps,"Data and code for BuzzFeed's bikeshare gender maps.",13,49,25
+huffpostdata,ap-election-loader,https://github.com/huffpostdata/ap-election-loader,A Ruby library for loading election data from The Associated Press into MySQL,14,31,23
+ajam,2014_payday-nation-data,https://github.com/ajam/2014_payday-nation-data,Data for the Payday Nation project.,10,21,8
+dukechronicle,chronline,https://github.com/dukechronicle/chronline,The official repository for the Duke Chronicle website,26,16,3

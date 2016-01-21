@@ -1,3 +1,10 @@
+# git
+.git
+.gitconfig.local
+
+# OS
+.DS_Store
+
 # Logs
 logs
 *.log

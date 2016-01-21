@@ -6,6 +6,7 @@
   "private": true,
   "scripts": {
     "dev": "webpack-dev-server --devtool eval --progress --colors",
+    "update": "node scripts/update.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -38,6 +39,7 @@
   "dependencies": {
     "css-loader": "^0.16.0",
     "file-loader": "^0.8.5",
+    "git-config": "0.0.7",
     "react": "^0.14.6",
     "react-addons": "^0.9.0",
     "react-dom": "^0.14.5",
