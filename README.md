@@ -9,7 +9,7 @@ npm run dev
 
 ```
 ## TODO
-* compile data list
-* call github api to get star/watch/fork numbers, desc, and author/org
-* sorting? 
+* compile data list, add more
 * tags, how to add automatically?
+* filtering
+* restyling
