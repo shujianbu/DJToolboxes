@@ -1,7 +1,7 @@
 {
-  "name": "DJShowcases",
+  "name": "DJToolboxes",
   "version": "1.0.0",
-  "description": "Tracking newsroom data journalism projects.",
+  "description": "Collect newsroom data journalism tools.",
   "main": "app/main.js",
   "private": true,
   "scripts": {
@@ -11,18 +11,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/shujianbu/DJShowcases.git"
+    "url": "https://github.com/shujianbu/DJToolboxes.git"
   },
   "keywords": [
     "data",
     "journalism",
-    "visualization"
+    "visualization",
+    "tools"
   ],
-  "author": "Shujian Bu, Yue Qiu",
+  "author": "Shujian Bu",
   "bugs": {
-    "url": "https://github.com/shujianbu/DJShowcases/issues"
+    "url": "https://github.com/shujianbu/DJToolboxes/issues"
   },
-  "homepage": "https://github.com/shujianbu/DJShowcases",
+  "homepage": "https://github.com/shujianbu/DJToolboxes",
   "devDependencies": {
     "babel": "^5.8.34",
     "babel-core": "^5.8.34",

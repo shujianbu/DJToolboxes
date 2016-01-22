@@ -3,11 +3,10 @@
 import React from 'react';
 import injectTapEventPlugin from 'react-tap-event-plugin';
 
-import Avatar from 'material-ui/lib/avatar';
+import IconButton from 'material-ui/lib/icon-button';
 import Card from 'material-ui/lib/card/card';
 import CardActions from 'material-ui/lib/card/card-actions';
 import CardHeader from 'material-ui/lib/card/card-header';
-import FlatButton from 'material-ui/lib/flat-button';
 import CardText from 'material-ui/lib/card/card-text';
 import ThemeManager from 'material-ui/lib/styles/theme-manager';
 
@@ -31,30 +30,39 @@ class StoryBoard extends React.Component {
         };
     }
 
-
     componentWillReceiveProps(nextProps) {
         this.setState({data: this.parseData(nextProps.data)});
     }
 
     getLogo(name) {
         for(let i = 1; i < ORGS.length; i++) {
-            if(ORGS[i].label.indexOf(name) !== -1) {
+            if(ORGS[i].label.toLowerCase() == name.toLowerCase()) {
                 return './img/logo/' + ORGS[i].value + '.png';
             }
         }
         return './img/logo/default.png';
     }
 
+    getOrg(name) {
+        for(let i = 1; i < ORGS.length; i++) {
+            if(ORGS[i].label.toLowerCase() == name.toLowerCase()) {
+                return ORGS[i].en;
+            }
+        }
+        return name;
+    }
+
     parseData(data) {
         var ret = {};
-        ret.title = data['Title'];
-        ret.url = data['URL'];
-        ret.orgen = data['Organization'];
-        ret.orgcn = data['Organization_CN'];
-        ret.cat = data['Topic'];
-        ret.element = data['Type'];
-        ret.img = data['Images'];
-        ret.logo = this.getLogo(ret.orgen);
+        ret.title = data['repo'];
+        ret.url = data['html_url'];
+        ret.user = data['user'];
+        ret.desc = data['description'];
+        ret.watch = data['watch'];
+        ret.star = data['star'];
+        ret.forks = data['forks'];
+        ret.logo = this.getLogo(ret.user);
+        ret.name = this.getOrg(ret.user);
         return ret;
     }
 
@@ -62,32 +70,23 @@ class StoryBoard extends React.Component {
 
         return (
 
-            <Card initiallyExpanded={true} className='storyBoard'>
+            <Card initiallyExpanded={false} className='storyBoard'>
                 <CardHeader
-                title="Without Avatar"
-                subtitle="Subtitle"
+                title= {this.state.data.title}
+                subtitle={this.state.data.name}
                 actAsExpander={true}
-                avatar={<Avatar style={{color: 'red'}}>A</Avatar>}
+                avatar={this.state.data.logo}
                 showExpandableButton={true} />
 
-                <CardText expandable={true}>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Donec mattis pretium massa. Aliquam erat volutpat. Nulla facilisi.
-                    Donec vulputate interdum sollicitudin. Nunc lacinia auctor quam sed pellentesque.
-                    Aliquam dui mauris, mattis quis lacus id, pellentesque lobortis odio.
+                <CardText expandable={true}>{this.state.data.desc}
                 </CardText>
 
                 <CardActions expandable={true}>
-                    <FlatButton label="Action1"/>
-                    <FlatButton label="Action2"/>
+                    <IconButton iconClassName="material-icons">visibility</IconButton><span>{this.state.data.watch}</span>
+                    <IconButton iconClassName="material-icons">star</IconButton><span>{this.state.data.star}</span>
+                    <IconButton iconClassName="material-icons">call_merge</IconButton><span>{this.state.data.forks}</span>
                 </CardActions>
 
-                <CardText expandable={true}>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Donec mattis pretium massa. Aliquam erat volutpat. Nulla facilisi.
-                    Donec vulputate interdum sollicitudin. Nunc lacinia auctor quam sed pellentesque.
-                    Aliquam dui mauris, mattis quis lacus id, pellentesque lobortis odio.
-                </CardText>
             </Card>
 
         );

@@ -6,14 +6,11 @@ import injectTapEventPlugin from 'react-tap-event-plugin';
 import ThemeManager from 'material-ui/lib/styles/theme-manager';
 import DropDownMenu from 'material-ui/lib/DropDownMenu';
 import MenuItem from 'material-ui/lib/menus/menu-item';
-import TextField from 'material-ui/lib/text-field';
 import AutoComplete from 'material-ui/lib/auto-complete';
 
-import FontIcon from 'material-ui/lib/font-icon';
 import Toolbar from 'material-ui/lib/toolbar/toolbar';
 import ToolbarGroup from 'material-ui/lib/toolbar/toolbar-group';
 import ToolbarSeparator from 'material-ui/lib/toolbar/toolbar-separator';
-import ToolbarTitle from 'material-ui/lib/toolbar/toolbar-title';
 
 import { TOPICS, ORGS, TYPES } from './const';
 import DJTheme from './theme';
@@ -78,7 +75,7 @@ class FiltersSection extends React.Component {
                 <DropDownMenu onChange={this.handleChange.bind(this, 'type')} value={this.state.type} >{this.types}</DropDownMenu>
             </ToolbarGroup>
             <ToolbarGroup key={1} float='right' className='searchbar'>
-                <AutoComplete hintText='输入案例名' filter={AutoComplete.caseInsensitiveFilter} dataSource={this.props.autoCompleteData} onNewRequest={this.handleSearch.bind(this)} onUpdateInput={this.clearSearch.bind(this)} />
+                <AutoComplete hintText='搜索工具库' filter={AutoComplete.caseInsensitiveFilter} dataSource={this.props.autoCompleteData} onNewRequest={this.handleSearch.bind(this)} onUpdateInput={this.clearSearch.bind(this)} />
             </ToolbarGroup>
         </Toolbar>
         );
