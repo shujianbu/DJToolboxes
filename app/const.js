@@ -1,7 +1,7 @@
 'use strict';
 
 const TOPICS = [
-  { value: '0',  label: 'all',           ch: ''    },
+  { value: '0',  label: '所有类别',        ch: '所有类别' },
   { value: '1',  label: 'Scraping',      ch: '网页爬虫' },
   { value: '2',  label: 'Charts',        ch: '图表组件' },
   { value: '3',  label: 'Data Analysis', ch: '数据处理' },
@@ -9,7 +9,7 @@ const TOPICS = [
 ];
 
 const ORGS = [
-  { value: '0',  label: 'all',             en:'',                            ch: '' },
+  { value: '0',  label: '所有媒体',         en:'all',                     ch: '所有媒体' },
   { value: '1',  label: 'nytimes',         en:'The New York Times',          ch: '纽约时报' },
   { value: '2',  label: 'guardian',        en:'The Guardian',                ch: '英国卫报' },
   { value: '3',  label: 'nprapps',         en:'NPR',                         ch: '国家公共电台' },
@@ -32,7 +32,7 @@ const ORGS = [
 ];
 
 const TYPES = [
-  { value: '0',  label: 'all' },
+  { value: '0',  label: '编程语言' },
   { value: '1',  label: 'Java' },
   { value: '2',  label: 'Python' },
   { value: '3',  label: 'JavaScript' },
