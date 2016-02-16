@@ -11,8 +11,7 @@ npm run dev
 npm run update
 ```
 ## TODO
-* restyle code, tab -> space
+* restyling cardboard, add hyperlinks
 * compile data list, add more
-* tags, how to add automatically?
-* filtering
-* restyling
+* add tags for each project
+* filtering feature
