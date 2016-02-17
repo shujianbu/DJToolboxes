@@ -1,16 +1,16 @@
-user,repo,html_url,description,watch,star,forks
-NYTimes,objective-c-style-guide,https://github.com/NYTimes/objective-c-style-guide,The Objective-C Style Guide used by The New York Times,285,3800,837
-guardian,frontend,https://github.com/guardian/frontend,Source for theguardian.com,177,3100,321
-newsapps,beeswithmachineguns,https://github.com/newsapps/beeswithmachineguns,A utility for arming (creating) many bees (micro EC2 instances) to attack (load test) targets (web applications).,146,3013,343
-BloombergMedia,whatiscode,https://github.com/BloombergMedia/whatiscode,Paul Ford’s “What Is Code?”,102,2551,194
-fivethirtyeight,data,https://github.com/fivethirtyeight/data,Data and code behind the stories and interactives at FiveThirtyEight,466,2132,856
-nprapps,app-template,https://github.com/nprapps/app-template,"The NPR visuals team's opinionated project template for client-side apps.",88,1048,148
-voxmedia,meme,https://github.com/voxmedia/meme,Meme generator,128,607,205
-propublica,guides,https://github.com/propublica/guides,"ProPublica's News App and Data Style Guides",79,408,89
-TimeMagazine,babynames,https://github.com/TimeMagazine/babynames,"Fun with the Social Security Administration's baby name data",26,187,46
-censusreporter,censusreporter,https://github.com/censusreporter/censusreporter,Census Reporter is a Knight News Challenge-funded project to make it easier for journalists to write stories using information from the U.S. Census bureau.,28,134,57
-datadesk,python-elections,https://github.com/datadesk/python-elections,"A Python wrapper for the Associated Press' U.S. election data service.",56,126,29
-BuzzFeedNews,2014-06-bikeshare-gender-maps,https://github.com/BuzzFeedNews/2014-06-bikeshare-gender-maps,"Data and code for BuzzFeed's bikeshare gender maps.",13,51,25
-huffpostdata,ap-election-loader,https://github.com/huffpostdata/ap-election-loader,A Ruby library for loading election data from The Associated Press into MySQL,14,34,23
-ajam,2014_payday-nation-data,https://github.com/ajam/2014_payday-nation-data,Data for the Payday Nation project.,10,22,8
-dukechronicle,chronline,https://github.com/dukechronicle/chronline,The official repository for the Duke Chronicle website,26,17,3
+user,repo,html_url,description,watch,star,forks,language
+NYTimes,objective-c-style-guide,https://github.com/NYTimes/objective-c-style-guide,The Objective-C Style Guide used by The New York Times,285,3801,835,
+guardian,frontend,https://github.com/guardian/frontend,Source for theguardian.com,177,3098,321,HTML
+newsapps,beeswithmachineguns,https://github.com/newsapps/beeswithmachineguns,A utility for arming (creating) many bees (micro EC2 instances) to attack (load test) targets (web applications).,146,3015,343,Python
+BloombergMedia,whatiscode,https://github.com/BloombergMedia/whatiscode,Paul Ford’s “What Is Code?”,102,2550,194,JavaScript
+fivethirtyeight,data,https://github.com/fivethirtyeight/data,Data and code behind the stories and interactives at FiveThirtyEight,468,2135,857,Jupyter Notebook
+nprapps,app-template,https://github.com/nprapps/app-template,"The NPR visuals team's opinionated project template for client-side apps.",88,1048,148,JavaScript
+voxmedia,meme,https://github.com/voxmedia/meme,Meme generator,129,607,205,JavaScript
+propublica,guides,https://github.com/propublica/guides,"ProPublica's News App and Data Style Guides",79,409,89,HTML
+TimeMagazine,babynames,https://github.com/TimeMagazine/babynames,"Fun with the Social Security Administration's baby name data",26,187,46,JavaScript
+censusreporter,censusreporter,https://github.com/censusreporter/censusreporter,Census Reporter is a Knight News Challenge-funded project to make it easier for journalists to write stories using information from the U.S. Census bureau.,28,135,57,HTML
+datadesk,python-elections,https://github.com/datadesk/python-elections,"A Python wrapper for the Associated Press' U.S. election data service.",55,127,29,Python
+BuzzFeedNews,2014-06-bikeshare-gender-maps,https://github.com/BuzzFeedNews/2014-06-bikeshare-gender-maps,"Data and code for BuzzFeed's bikeshare gender maps.",13,51,25,JavaScript
+huffpostdata,ap-election-loader,https://github.com/huffpostdata/ap-election-loader,A Ruby library for loading election data from The Associated Press into MySQL,14,34,23,Ruby
+ajam,2014_payday-nation-data,https://github.com/ajam/2014_payday-nation-data,Data for the Payday Nation project.,10,22,8,
+dukechronicle,chronline,https://github.com/dukechronicle/chronline,The official repository for the Duke Chronicle website,26,17,3,Ruby

@@ -56,6 +56,7 @@ var update = function(list, ind) {
       entry.watch = res.subscribers_count;
       entry.star = res.watchers;
       entry.forks = res.forks;
+      entry.language = res.language;
       console.log(entry);
       out.push(entry);
     }
