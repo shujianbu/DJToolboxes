@@ -52,6 +52,7 @@ var update = function(list, ind) {
       entry.user = list[ind].user;
       entry.repo = list[ind].repo;
       entry.html_url = res.html_url;
+      entry.notes = list[ind].notes;
       entry.description = res.description;
       entry.watch = res.subscribers_count;
       entry.star = res.watchers;

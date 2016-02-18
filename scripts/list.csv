@@ -1,1 +1,43 @@
-id,user,repo,notes1,NYTimes,objective-c-style-guide,none2,guardian,frontend,none3,newsapps,beeswithmachineguns,none4,BloombergMedia,whatiscode,none5,fivethirtyeight,data,none6,nprapps,app-template,none7,voxmedia,meme,none8,propublica,guides,none9,TimeMagazine,babynames,none10,censusreporter,censusreporter,none11,datadesk,python-elections,none12,BuzzFeedNews,2014-06-bikeshare-gender-maps,none13,huffpostdata,ap-election-loader,none14,ajam,2014_payday-nation-data,none15,dukechronicle,chronline,none​
+id,user,repo,notes
+1,NYTimes,objective-c-style-guide,newsroom
+2,guardian,frontend,newsroom
+3,newsapps,beeswithmachineguns,newsroom
+4,BloombergMedia,whatiscode,newsroom
+5,fivethirtyeight,data,newsroom
+6,nprapps,app-template,newsroom
+7,voxmedia,meme,newsroom
+8,propublica,guides,newsroom
+9,TimeMagazine,babynames,newsroom
+10,censusreporter,censusreporter,newsroom
+11,datadesk,python-elections,newsroom
+12,BuzzFeedNews,2014-06-bikeshare-gender-maps,newsroom
+13,huffpostdata,ap-election-loader,newsroom
+14,ajam,2014_payday-nation-data,newsroom
+15,dukechronicle,chronline,newsroom
+16,mbostock,d3,charting
+17,nnnick,Chart.js,charting
+18,Leaflet,Leaflet,"charting, maps"
+19,ecomfe,echarts,charting
+20,gionkunz,chartist-js,charting
+21,jacomyal,sigma.js,charting
+22,mozilla,metrics-graphics,charting
+23,dc-js,dc.js,"charting, multi-dimensional"
+24,epochjs,epoch,"charting, real-time"
+25,vega,vega,charting
+26,benpickles,peity,charting
+27,densitydesign,raw,charting
+28,matplotlib,matplotlib,charting
+29,gka,chroma.js,colors
+30,samizdatco,arbor,charting
+31,Boris-Em,BEMSimpleLineGraph,"charting, iOS"
+32,okfn,recline,charting
+33,HumbleSoftware,envisionjs,charting
+34,kartograph,kartograph.js,"charting, maps"
+35,AnalyticalGraphicsInc,cesium,"charting, WebGL"
+36,stamen,modestmaps-js,"charting, maps"
+37,openaddresses,openaddresses,"open data, addresses"
+38,unitedstates,congress-legislators,"open data, politics"
+39,OpenExoplanetCatalogue,open_exoplanet_catalogue,"open data, astronomy"
+40,Chicago,food-inspections-evaluation,"open data, food"
+41,benbalter,congressional-districts,"open data, politics, maps"
+42,cernopendata,opendata.cern.ch,open data

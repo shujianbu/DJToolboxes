@@ -1,16 +1,43 @@
-user,repo,html_url,description,watch,star,forks,language
-NYTimes,objective-c-style-guide,https://github.com/NYTimes/objective-c-style-guide,The Objective-C Style Guide used by The New York Times,285,3801,835,
-guardian,frontend,https://github.com/guardian/frontend,Source for theguardian.com,177,3098,321,HTML
-newsapps,beeswithmachineguns,https://github.com/newsapps/beeswithmachineguns,A utility for arming (creating) many bees (micro EC2 instances) to attack (load test) targets (web applications).,146,3015,343,Python
-BloombergMedia,whatiscode,https://github.com/BloombergMedia/whatiscode,Paul Ford’s “What Is Code?”,102,2550,194,JavaScript
-fivethirtyeight,data,https://github.com/fivethirtyeight/data,Data and code behind the stories and interactives at FiveThirtyEight,468,2135,857,Jupyter Notebook
-nprapps,app-template,https://github.com/nprapps/app-template,"The NPR visuals team's opinionated project template for client-side apps.",88,1048,148,JavaScript
-voxmedia,meme,https://github.com/voxmedia/meme,Meme generator,129,607,205,JavaScript
-propublica,guides,https://github.com/propublica/guides,"ProPublica's News App and Data Style Guides",79,409,89,HTML
-TimeMagazine,babynames,https://github.com/TimeMagazine/babynames,"Fun with the Social Security Administration's baby name data",26,187,46,JavaScript
-censusreporter,censusreporter,https://github.com/censusreporter/censusreporter,Census Reporter is a Knight News Challenge-funded project to make it easier for journalists to write stories using information from the U.S. Census bureau.,28,135,57,HTML
-datadesk,python-elections,https://github.com/datadesk/python-elections,"A Python wrapper for the Associated Press' U.S. election data service.",55,127,29,Python
-BuzzFeedNews,2014-06-bikeshare-gender-maps,https://github.com/BuzzFeedNews/2014-06-bikeshare-gender-maps,"Data and code for BuzzFeed's bikeshare gender maps.",13,51,25,JavaScript
-huffpostdata,ap-election-loader,https://github.com/huffpostdata/ap-election-loader,A Ruby library for loading election data from The Associated Press into MySQL,14,34,23,Ruby
-ajam,2014_payday-nation-data,https://github.com/ajam/2014_payday-nation-data,Data for the Payday Nation project.,10,22,8,
-dukechronicle,chronline,https://github.com/dukechronicle/chronline,The official repository for the Duke Chronicle website,26,17,3,Ruby
+user,repo,html_url,notes,description,watch,star,forks,language
+NYTimes,objective-c-style-guide,https://github.com/NYTimes/objective-c-style-guide,newsroom,The Objective-C Style Guide used by The New York Times,285,3803,839,
+guardian,frontend,https://github.com/guardian/frontend,newsroom,Source for theguardian.com,177,3099,321,HTML
+newsapps,beeswithmachineguns,https://github.com/newsapps/beeswithmachineguns,newsroom,A utility for arming (creating) many bees (micro EC2 instances) to attack (load test) targets (web applications).,146,3017,343,Python
+BloombergMedia,whatiscode,https://github.com/BloombergMedia/whatiscode,newsroom,Paul Ford’s “What Is Code?”,102,2552,194,JavaScript
+fivethirtyeight,data,https://github.com/fivethirtyeight/data,newsroom,Data and code behind the stories and interactives at FiveThirtyEight,468,2137,862,Jupyter Notebook
+nprapps,app-template,https://github.com/nprapps/app-template,newsroom,"The NPR visuals team's opinionated project template for client-side apps.",88,1049,149,JavaScript
+voxmedia,meme,https://github.com/voxmedia/meme,newsroom,Meme generator,129,607,205,JavaScript
+propublica,guides,https://github.com/propublica/guides,newsroom,"ProPublica's News App and Data Style Guides",79,409,89,HTML
+TimeMagazine,babynames,https://github.com/TimeMagazine/babynames,newsroom,"Fun with the Social Security Administration's baby name data",26,187,46,JavaScript
+censusreporter,censusreporter,https://github.com/censusreporter/censusreporter,newsroom,Census Reporter is a Knight News Challenge-funded project to make it easier for journalists to write stories using information from the U.S. Census bureau.,28,135,57,HTML
+datadesk,python-elections,https://github.com/datadesk/python-elections,newsroom,"A Python wrapper for the Associated Press' U.S. election data service.",55,127,29,Python
+BuzzFeedNews,2014-06-bikeshare-gender-maps,https://github.com/BuzzFeedNews/2014-06-bikeshare-gender-maps,newsroom,"Data and code for BuzzFeed's bikeshare gender maps.",13,51,25,JavaScript
+huffpostdata,ap-election-loader,https://github.com/huffpostdata/ap-election-loader,newsroom,A Ruby library for loading election data from The Associated Press into MySQL,14,34,23,Ruby
+ajam,2014_payday-nation-data,https://github.com/ajam/2014_payday-nation-data,newsroom,Data for the Payday Nation project.,10,22,8,
+dukechronicle,chronline,https://github.com/dukechronicle/chronline,newsroom,The official repository for the Duke Chronicle website,26,17,3,Ruby
+mbostock,d3,https://github.com/mbostock/d3,charting,A JavaScript visualization library for HTML and SVG.,2195,46571,12468,JavaScript
+nnnick,Chart.js,https://github.com/nnnick/Chart.js,charting,Simple HTML5 Charts using the <canvas> tag,884,18251,5668,JavaScript
+Leaflet,Leaflet,https://github.com/Leaflet/Leaflet,"charting, maps", :leaves: JavaScript library for mobile-friendly interactive maps,683,12823,2304,JavaScript
+ecomfe,echarts,https://github.com/ecomfe/echarts,charting,A powerful charting and visualization library for browser,1044,10415,3748,JavaScript
+gionkunz,chartist-js,https://github.com/gionkunz/chartist-js,charting,Simple responsive charts,298,7647,1000,JavaScript
+jacomyal,sigma.js,https://github.com/jacomyal/sigma.js,charting,A JavaScript library dedicated to graph drawing,284,5774,855,JavaScript
+mozilla,metrics-graphics,https://github.com/mozilla/metrics-graphics,charting,"A library optimized for concise, principled data graphics and layouts.",197,5582,302,JavaScript
+dc-js,dc.js,https://github.com/dc-js/dc.js,"charting, multi-dimensional",Multi-Dimensional charting built to work natively with crossfilter rendered with d3.js,289,4661,1149,JavaScript
+epochjs,epoch,https://github.com/epochjs/epoch,"charting, real-time","A general purpose, real-time visualization library.",203,4426,239,HTML
+vega,vega,https://github.com/vega/vega,charting,A visualization grammar.,246,3898,389,JavaScript
+benpickles,peity,https://github.com/benpickles/peity,charting,"Progressive <svg> pie, donut, bar and line charts",120,3416,319,HTML
+densitydesign,raw,https://github.com/densitydesign/raw,charting,The missing link between spreadsheets and vector graphics,247,3352,654,JavaScript
+matplotlib,matplotlib,https://github.com/matplotlib/matplotlib,charting,matplotlib: plotting with Python,315,3285,1678,Python
+gka,chroma.js,https://github.com/gka/chroma.js,colors,JavaScript library for all kinds of color manipulations,108,2792,236,CoffeeScript
+samizdatco,arbor,https://github.com/samizdatco/arbor,charting,a graph visualization library using web workers and jQuery,161,2177,542,JavaScript
+Boris-Em,BEMSimpleLineGraph,https://github.com/Boris-Em/BEMSimpleLineGraph,"charting, iOS",Elegant Line Graphs for iOS (charting library),94,2003,289,Objective-C
+okfn,recline,https://github.com/okfn/recline,charting,A simple but powerful library for building data applications in pure Javascript and HTML.,131,1808,291,JavaScript
+HumbleSoftware,envisionjs,https://github.com/HumbleSoftware/envisionjs,charting,Dynamic HTML5 visualization,91,1489,239,JavaScript
+kartograph,kartograph.js,https://github.com/kartograph/kartograph.js,"charting, maps",Open source JavaScript renderer for Kartograph SVG maps,88,1375,213,JavaScript
+AnalyticalGraphicsInc,cesium,https://github.com/AnalyticalGraphicsInc/cesium,"charting, WebGL",WebGL virtual globe and map engine,176,1149,677,JavaScript
+stamen,modestmaps-js,https://github.com/stamen/modestmaps-js,"charting, maps",Modest Maps javascript port,62,515,139,JavaScript
+openaddresses,openaddresses,https://github.com/openaddresses/openaddresses,"open data, addresses",A repository of address data.,49,392,491,JavaScript
+unitedstates,congress-legislators,https://github.com/unitedstates/congress-legislators,"open data, politics","Members of the United States Congress, 1789-Present, in YAML, as well as committees, presidents, and vice presidents.",81,379,175,Python
+OpenExoplanetCatalogue,open_exoplanet_catalogue,https://github.com/OpenExoplanetCatalogue/open_exoplanet_catalogue,"open data, astronomy",The Open Exoplanet Catalogue,55,263,83,Python
+Chicago,food-inspections-evaluation,https://github.com/Chicago/food-inspections-evaluation,"open data, food",This repository contains the code to generate predictions of critical violations at food establishments in Chicago. It also contains the results of an evaluation of the effectiveness of those predictions.,24,80,35,HTML
+benbalter,congressional-districts,https://github.com/benbalter/congressional-districts,"open data, politics, maps","Historic and current US Congressional districts as GeoJSON, versioned within Git",12,75,21,
+cernopendata,opendata.cern.ch,https://github.com/cernopendata/opendata.cern.ch,open data,Invenio source code overlay for CERN Open Data Portal,33,57,30,Python
