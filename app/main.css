@@ -20,3 +20,20 @@ body {
 	margin-left: 2%;
 	margin-top: 50px;
 }
+
+.desc {
+  padding: 5px 16px !important;
+  height: 50px;
+  text-overflow: ellipsis;
+  overflow-y: auto;
+}
+
+.num {
+  font-size: 13px;
+}
+
+.octicon {
+  vertical-align: middle;
+  display: inline-block;
+  fill: currentColor;
+}
