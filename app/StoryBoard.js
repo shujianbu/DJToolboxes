@@ -3,15 +3,20 @@
 import React from 'react';
 import injectTapEventPlugin from 'react-tap-event-plugin';
 
-import IconButton from 'material-ui/lib/icon-button';
+import Avatar from 'material-ui/lib/avatar';
 import Card from 'material-ui/lib/card/card';
 import CardActions from 'material-ui/lib/card/card-actions';
 import CardHeader from 'material-ui/lib/card/card-header';
 import CardText from 'material-ui/lib/card/card-text';
 import ThemeManager from 'material-ui/lib/styles/theme-manager';
+import styles from 'material-ui/lib/styles';
 
 import {ORGS} from './const';
 import DJTheme from './theme';
+
+const colorsArr = [styles.Colors.amber500, styles.Colors.brown400, styles.Colors.blueGrey500, styles.Colors.pink400, styles.Colors.green500,
+  styles.Colors.teal500, styles.Colors.blue300, styles.Colors.indigo400, styles.Colors.purple500, styles.Colors.red500];
+const greyCol = styles.Colors.grey200;
 
 injectTapEventPlugin();
 
@@ -40,7 +45,10 @@ class StoryBoard extends React.Component {
         return './img/logo/' + ORGS[i].value + '.png';
       }
     }
-    return './img/logo/default.png';
+
+    var cap = name.charAt(0).toUpperCase();
+    var num = Math.floor(Math.random() * 10);
+    return <Avatar color={greyCol} backgroundColor={colorsArr[num]} >{cap}</Avatar>;
   }
 
   getOrg(name) {
@@ -73,7 +81,7 @@ class StoryBoard extends React.Component {
         title= {this.state.data.title}
         subtitle={this.state.data.name}
         avatar={this.state.data.logo}
-        showExpandableButton={true} />
+        showExpandableButton={false} />
 
         <CardText className='desc'>{this.state.data.desc}</CardText>
 
