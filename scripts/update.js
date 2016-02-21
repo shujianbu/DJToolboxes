@@ -1,37 +1,46 @@
-var fs        = require('fs'),
-  path      = require('path'),
-  csv       = require('fast-csv'),
-  GitHubApi = require('github'),
-  github    = new GitHubApi({
+var fs        = require('fs')
+  , path      = require('path')
+  , csv       = require('fast-csv')
+  , GitHubApi = require('github')
+  , ini       = require('ini');
+
+var inFile     = __dirname + '/list.csv'
+  , outFile    = __dirname + '/../app/data.csv'
+  , configFile = __dirname + '/../.gitconfig.local';
+
+var github, ws;
+var outdata = [];
+
+var init = function () {
+
+  var config = ini.parse(fs.readFileSync(configFile, 'utf-8'));
+  var token = config.git.token;
+
+  github = new GitHubApi({
     version: '3.0.0',
     protocol: 'https',
     host: 'api.github.com',
     timeout: 5000
   });
-
-github.authenticate({
+  github.authenticate({
     type: 'oauth',
-    token: ''
-});
+    token: token
+  });
 
-var out = [],
-  ws  = fs.createWriteStream(__dirname + '/../app/data.csv');
+  ws = fs.createWriteStream(outFile);
+  ws.on('finish', function() {
+    console.log('Done updating.');
+  });
 
-ws.on('finish', function() {
-  console.log('Done updating.');
-});
-
-var init = function () {
-  var file   = __dirname + '/list.csv',
-    list   = [],
-    stream = fs.createReadStream(file),
-    input  = csv.fromStream(stream, {headers: true})
-      .on('data', function(data) {
-        list.push(data);
-      })
-      .on('end', function() {
-        update(list, 0);
-      });
+  var stream = fs.createReadStream(inFile);
+  var list = [];
+  csv.fromStream(stream, {headers: true})
+    .on('data', function(data) {
+      list.push(data);
+    })
+    .on('end', function() {
+      update(list, 0);
+    });
 };
 
 var update = function(list, ind) {
@@ -58,8 +67,8 @@ var update = function(list, ind) {
       entry.star = res.watchers;
       entry.forks = res.forks;
       entry.language = res.language;
+      outdata.push(entry);
       console.log(entry);
-      out.push(entry);
     }
     ind++;
     update(list, ind);
@@ -68,7 +77,7 @@ var update = function(list, ind) {
 };
 
 var save = function() {
-  csv.write(out, {headers: true}).pipe(ws);
+  csv.write(outdata, {headers: true}).pipe(ws);
 };
 
 init();
