@@ -1,7 +1,7 @@
 'use strict';
 
 const TOPICS = [
-  { value: '0',  label: '所有类别',        ch: '所有类别' },
+  { value: '0',  label: '所有类别',       ch: '所有类别' },
   { value: '1',  label: 'Scraping',      ch: '网页爬虫' },
   { value: '2',  label: 'Charts',        ch: '图表组件' },
   { value: '3',  label: 'Data Analysis', ch: '数据处理' },
