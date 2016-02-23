@@ -69,6 +69,7 @@ class StoryBoard extends React.Component {
     ret.watch = data['watch'];
     ret.star = data['star'];
     ret.forks = data['forks'];
+    ret.language = data['language'];
     ret.logo = this.getLogo(ret.user);
     ret.name = this.getOrg(ret.user);
     return ret;
@@ -78,12 +79,12 @@ class StoryBoard extends React.Component {
     return (
       <Card className='storyBoard'>
         <CardHeader
-        title= {this.state.data.title}
-        subtitle={this.state.data.name}
+        title=<a href={'https://github.com/' + this.state.data.user + '/' + this.state.data.title} target='_blank'>{this.state.data.title}</a>
+        subtitle=<a href={'https://github.com/' + this.state.data.user} target='_blank'>{this.state.data.name}</a>
         avatar={this.state.data.logo}
         showExpandableButton={false} />
 
-        <CardText className='desc'>{this.state.data.desc}</CardText>
+      	<CardText className='desc'>{this.state.data.desc}</CardText>
 
         <CardActions>
           <svg className='octicon octicon-eye' height='16' viewBox='0 0 16 16' width='16'>
@@ -100,6 +101,9 @@ class StoryBoard extends React.Component {
             <path d='M8 1c-1.11 0-2 0.89-2 2 0 0.73 0.41 1.38 1 1.72v1.28L5 8 3 6v-1.28c0.59-0.34 1-0.98 1-1.72 0-1.11-0.89-2-2-2S0 1.89 0 3c0 0.73 0.41 1.38 1 1.72v1.78l3 3v1.78c-0.59 0.34-1 0.98-1 1.72 0 1.11 0.89 2 2 2s2-0.89 2-2c0-0.73-0.41-1.38-1-1.72V9.5l3-3V4.72c0.59-0.34 1-0.98 1-1.72 0-1.11-0.89-2-2-2zM2 4.2c-0.66 0-1.2-0.55-1.2-1.2s0.55-1.2 1.2-1.2 1.2 0.55 1.2 1.2-0.55 1.2-1.2 1.2z m3 10c-0.66 0-1.2-0.55-1.2-1.2s0.55-1.2 1.2-1.2 1.2 0.55 1.2 1.2-0.55 1.2-1.2 1.2z m3-10c-0.66 0-1.2-0.55-1.2-1.2s0.55-1.2 1.2-1.2 1.2 0.55 1.2 1.2-0.55 1.2-1.2 1.2z'></path>
           </svg>
           <span className='num'>{this.state.data.forks}</span>
+
+	        <span className='num lang'>{this.state.data.language}</span>
+
         </CardActions>
 
       </Card>

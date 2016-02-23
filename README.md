@@ -11,7 +11,7 @@ npm run dev
 npm run update
 ```
 ## TODO
-* restyling cardboard, add hyperlinks
+* filtering feature
+* restyling cardboard
 * compile data list, add more
 * add tags for each project
-* filtering feature
