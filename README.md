@@ -7,7 +7,8 @@
 ## Install
 ```sh
 npm install
-npm run dev
+npm start
+npm build
 npm run update
 ```
 ## TODO

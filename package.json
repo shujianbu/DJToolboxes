@@ -5,7 +5,9 @@
   "main": "app/main.js",
   "private": true,
   "scripts": {
-    "dev": "webpack-dev-server --devtool eval --progress --colors",
+    "start": "webpack-dev-server --devtool eval --progress --colors",
+    "build": "webpack",
+    "validate": "npm ls",
     "update": "node scripts/update.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
