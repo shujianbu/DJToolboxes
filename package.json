@@ -38,7 +38,7 @@
     "webpack-dev-server": "^1.14.0"
   },
   "dependencies": {
-    "css-loader": "^0.16.0",
+    "css-loader": "^0.23.1",
     "dsv-loader": "^1.0.3",
     "file-loader": "^0.8.5",
     "git-config": "0.0.7",
@@ -47,7 +47,8 @@
     "react-addons": "^0.9.0",
     "react-dom": "^0.14.5",
     "react-tap-event-plugin": "^0.2.1",
-    "style-loader": "^0.12.4",
-    "url-loader": "^0.5.7"
+    "style-loader": "^0.13.0",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.12.14"
   }
 }
