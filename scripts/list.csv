@@ -41,3 +41,51 @@ id,user,repo,notes
 40,Chicago,food-inspections-evaluation,"open data, food"
 41,benbalter,congressional-districts,"open data, politics, maps"
 42,cernopendata,opendata.cern.ch,open data
+43,newsdev,elex,"politics, newsroom"
+44,scitools,cartopy,mapping
+45,coleifer,peewee,sql
+46,buzzfeed-openlab,rss-puppy,newsroom
+47,Quartz,bad-data-guide,newsroom
+48,jnordberg,gif.js,gif
+49,cfpb,qu,government
+50,twitter,labella.js,timeline
+51,GSA,govt-urls,government
+52,hadley,data-movies,imdb
+53,18F,open-data-maker,government
+54,developmentseed,landsat-util,mapping
+55,bendc,animateplus,animation
+56,MuseumofModernArt,collection,art
+57,jlevy,the-art-of-command-line,tutorial
+58,CartoDB,cartodb,mapping
+59,rstudio,ggvis,r
+60,18F,analytics-reporter,google-analytics
+61,dkahle,ggmap,mapping
+62,Geolicious,qgis2leaf,"qgis,leaflet"
+63,alex,what-happens-when,4fun
+64,hadley,rvest,scraping
+65,mattboldt,typed.js,jquery
+66,davidmerfield,Typeset,type
+67,edwardtufte,tufte-css,css
+68,tiimgreen,github-cheat-sheet,tutorial
+69,newsdev,odf,olympics
+70,herrbischoff,awesome-osx-command-line,tutorial
+71,fivethirtyeight,data,newsroom
+72,jprobinson,newshound,newsroom
+73,ether,etherpad-lite,text-editor
+74,Quartz,Chartbuilder,"newsroom,charting"
+75,Quartz,bad-data-guide,"newsroom,data"
+76,jlord,sheetsee.js,charting
+77,voxmedia,meme,newsroom
+78,NUKnightLab,soundcite,sound
+79,nytlabs,streamtools,newsroom
+80,nprapps,pym.js,newsroom
+81,nprapps,dailygraphics,charting
+82,nprapps,bestpractices,newsroom
+83,BuzzFeedNews,zika-data,zika
+84,pippinlee,open-journalism-project,open-journalism
+85,ajam,pulp,4fun
+86,BuzzFeedNews,everything,newsroom
+87,NYTimes,NYTPhotoViewer,newsroom
+88,NYTimes,svg-crowbar,svg
+89,NYTimes,pourover,newsroom
+90,NYTimes,Emphasis,newsroom
