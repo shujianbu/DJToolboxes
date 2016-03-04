@@ -76,6 +76,7 @@ class FiltersSection extends React.Component {
         </ToolbarGroup>
         <ToolbarGroup key={1} float='right' className='searchbar'>
           <AutoComplete hintText='搜索工具库' filter={AutoComplete.caseInsensitiveFilter} dataSource={this.props.autoCompleteData} onNewRequest={this.handleSearch.bind(this)} onUpdateInput={this.clearSearch.bind(this)} />
+          <span className='infoIcon'>&#8505;</span>
         </ToolbarGroup>
       </Toolbar>
     );

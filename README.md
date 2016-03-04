@@ -1,7 +1,7 @@
 [![Build Status](https://travis-ci.org/shujianbu/DJToolboxes.svg?branch=master)](https://travis-ci.org/shujianbu/DJToolboxes)
 [![Dependency Status](https://david-dm.org/shujianbu/DJToolboxes.svg)](https://david-dm.org/shujianbu/DJToolboxes)
 
-# [![DJChina Logo](https://raw.githubusercontent.com/shujianbu/DJToolboxes/master/build/img/favicon.png)](http://djchina.org/) DJChina Showcases
+# <a href="http://djchina.org/"><img src="https://raw.githubusercontent.com/shujianbu/DJToolboxes/master/build/img/favicon.png" width="50"></a>  DJChina Toolboxes
 
 ![Overview](https://raw.githubusercontent.com/shujianbu/DJToolboxes/master/overview.png)
 
@@ -17,7 +17,7 @@ npm build
 npm run update
 ```
 ## TODO
-* filtering feature
-* restyling cardboard
-* compile data list, add more
-* add tags for each project
+* filtering + search feature
+* description?
+* tags?
+* dialog?

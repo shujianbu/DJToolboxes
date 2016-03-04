@@ -1,24 +1,35 @@
-/**
- * colors:;
- * 日期 #d6e0ea
- * 链接 #4b4e5c
- * 正文2 #d7d7d7
- * 正文 #d37324
- * 备用 #61a4e0
- */
-
 @import url(http://fonts.googleapis.com/css?family=Roboto:400,300,500);
 
 body {
-	font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-	font-size: 20px;
+  font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  margin: 20px 40px;
+  min-width: 900px;
+}
+
+.infoIcon {
+  margin-left: 15px;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  color: #61a4e0;
+  background-color: #d6e0ea;
+  text-align: center;
 }
 
 .storyBoard {
-	width: 30%;
-	float: left;
-	margin-left: 2%;
-	margin-top: 50px;
+  margin-top: 15px;
+}
+
+.numSec {
+  float: right;
+  margin-top: -56px;
+}
+
+.octSec {
+  float: left;
+  width: 70px;
 }
 
 .desc {
@@ -30,17 +41,75 @@ body {
 
 .num {
   font-size: 13px;
+  margin-left: 5px;
+  color: #555;
 }
 
 .lang {
-  float: right;
-  padding-top: 5px;
+  width: 140px;
+}
+
+.langicon {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+.langicon.js {
+  background-color: #f1e05a;
+}
+.langicon.objc {
+  background-color: #438eff;
+}
+.langicon.python {
+  background-color: #3572A5;
+}
+.langicon.html {
+  background-color: #e44b23;
+}
+.langicon.css {
+  background-color: #563D7C;
+}
+.langicon.go {
+  background-color: #375eab;
+}
+.langicon.ruby {
+  background-color: #701516;
+}
+.langicon.jup {
+  background-color: #DA5B0B;
+}
+.langicon.r {
+  background-color: #198CE7;
+}
+.langicon.clj {
+  background-color: #db5855;
+}
+.langicon.shell {
+  background-color: #89e051;
+}
+.langicon.coffee {
+  background-color: #244776;
+}
+.langicon.cs {
+  background-color: #178600;
+}
+.langicon.php {
+  background-color: #4F5D95;
+}
+.langicon.java {
+  background-color: #b07219;
+}
+.langicon.scala {
+  background-color: #DC322F;
 }
 
 .octicon {
   vertical-align: middle;
   display: inline-block;
   fill: currentColor;
+  color: #444;
 }
 
 a {

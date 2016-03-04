@@ -7,8 +7,8 @@ class BoardContainer extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      storyBoards : this.props.data.slice(),
-      filteredStoryBoards: this.props.data.slice()
+      storyBoards : this.props.data.sort(function(a,b) {return a['repo'].toLowerCase().charCodeAt(0) - b['repo'].toLowerCase().charCodeAt(0);}),
+      filteredStoryBoards: this.props.data.sort(function(a,b) {return a['repo'].toLowerCase().charCodeAt(0) - b['repo'].toLowerCase().charCodeAt(0);})
     };
   }
 
@@ -44,7 +44,7 @@ class BoardContainer extends React.Component {
         }
       });
 
-      this.setState({filteredStoryBoards: temp});
+      this.setState({filteredStoryBoards: temp.sort(function(a,b) {return a['repo'].toLowerCase().charCodeAt(0) - b['repo'].toLowerCase().charCodeAt(0);})});
     }
   }
 

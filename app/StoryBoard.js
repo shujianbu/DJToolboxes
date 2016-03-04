@@ -39,6 +39,61 @@ class StoryBoard extends React.Component {
     this.setState({data: this.parseData(nextProps.data)});
   }
 
+  getStyleName(name) {
+    var style = 'langicon ';
+    switch (name) {
+      case 'JavaScript':
+        style += 'js'
+        break;
+      case 'Objective-C':
+        style += 'objc'
+        break;
+      case 'HTML':
+        style += 'html'
+        break;
+      case 'Python':
+        style += 'python';
+        break;
+      case 'Go':
+        style += 'go';
+        break;
+      case 'Ruby':
+        style += 'ruby';
+        break;
+      case 'Jupyter Notebook':
+        style += 'jup';
+        break;
+      case 'R':
+        style += 'r';
+        break;
+      case 'Clojure':
+        style += 'clj';
+        break;
+      case 'CoffeeScript':
+        style += 'coffee';
+        break;
+      case 'Shell':
+        style += 'shell';
+        break;
+      case 'C#':
+        style += 'cs';
+        break;
+      case 'PHP':
+        style += 'php';
+        break;
+      case 'Java':
+        style += 'java';
+        break;
+      case 'Scala':
+        style += 'scala';
+        break;
+      default:
+        break;
+    }
+
+    return style;
+  }
+
   getLogo(name) {
     for(let i = 1; i < ORGS.length; i++) {
       if(ORGS[i].label.toLowerCase() == name.toLowerCase()) {
@@ -70,10 +125,14 @@ class StoryBoard extends React.Component {
     ret.star = data['star'];
     ret.forks = data['forks'];
     ret.language = data['language'];
+    ret.style = this.getStyleName(data['language']);
     ret.logo = this.getLogo(ret.user);
     ret.name = this.getOrg(ret.user);
     return ret;
   }
+
+  // <CardText className='desc'>{this.state.data.desc}</CardText>
+
 
   render() {
     return (
@@ -84,25 +143,33 @@ class StoryBoard extends React.Component {
         avatar={this.state.data.logo}
         showExpandableButton={false} />
 
-      	<CardText className='desc'>{this.state.data.desc}</CardText>
+        <CardActions className='numSec'>
 
-        <CardActions>
-          <svg className='octicon octicon-eye' height='16' viewBox='0 0 16 16' width='16'>
-            <path d='M8.06 2C3 2 0 8 0 8s3 6 8.06 6c4.94 0 7.94-6 7.94-6S13 2 8.06 2z m-0.06 10c-2.2 0-4-1.78-4-4 0-2.2 1.8-4 4-4 2.22 0 4 1.8 4 4 0 2.22-1.78 4-4 4z m2-4c0 1.11-0.89 2-2 2s-2-0.89-2-2 0.89-2 2-2 2 0.89 2 2z'></path>
-          </svg>
-          <span className='num'>{this.state.data.watch}</span>
+          <div className='octSec lang'>
+            <span className={this.state.data.style}></span>
+            <span className='num'>{this.state.data.language}</span>
+          </div>
 
-          <svg className='octicon octicon-star' height='16' viewBox='0 0 14 16' width='14'>
-            <path d='M14 6l-4.9-0.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14l4.33-2.33 4.33 2.33L10.4 9.26 14 6z'></path>
-          </svg>
-          <span className='num'>{this.state.data.star}</span>
+          <div className='octSec'>
+            <svg className='octicon octicon-eye' height='16' viewBox='0 0 16 16' width='16'>
+              <path d='M8.06 2C3 2 0 8 0 8s3 6 8.06 6c4.94 0 7.94-6 7.94-6S13 2 8.06 2z m-0.06 10c-2.2 0-4-1.78-4-4 0-2.2 1.8-4 4-4 2.22 0 4 1.8 4 4 0 2.22-1.78 4-4 4z m2-4c0 1.11-0.89 2-2 2s-2-0.89-2-2 0.89-2 2-2 2 0.89 2 2z'></path>
+            </svg>
+            <span className='num'>{this.state.data.watch}</span>
+          </div>
 
-          <svg className='octicon octicon-repo-forked' height='16' viewBox='0 0 10 16' width='10'>
-            <path d='M8 1c-1.11 0-2 0.89-2 2 0 0.73 0.41 1.38 1 1.72v1.28L5 8 3 6v-1.28c0.59-0.34 1-0.98 1-1.72 0-1.11-0.89-2-2-2S0 1.89 0 3c0 0.73 0.41 1.38 1 1.72v1.78l3 3v1.78c-0.59 0.34-1 0.98-1 1.72 0 1.11 0.89 2 2 2s2-0.89 2-2c0-0.73-0.41-1.38-1-1.72V9.5l3-3V4.72c0.59-0.34 1-0.98 1-1.72 0-1.11-0.89-2-2-2zM2 4.2c-0.66 0-1.2-0.55-1.2-1.2s0.55-1.2 1.2-1.2 1.2 0.55 1.2 1.2-0.55 1.2-1.2 1.2z m3 10c-0.66 0-1.2-0.55-1.2-1.2s0.55-1.2 1.2-1.2 1.2 0.55 1.2 1.2-0.55 1.2-1.2 1.2z m3-10c-0.66 0-1.2-0.55-1.2-1.2s0.55-1.2 1.2-1.2 1.2 0.55 1.2 1.2-0.55 1.2-1.2 1.2z'></path>
-          </svg>
-          <span className='num'>{this.state.data.forks}</span>
+          <div className='octSec'>
+            <svg className='octicon octicon-star' height='16' viewBox='0 0 14 16' width='14'>
+              <path d='M14 6l-4.9-0.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14l4.33-2.33 4.33 2.33L10.4 9.26 14 6z'></path>
+            </svg>
+            <span className='num'>{this.state.data.star}</span>
+          </div>
 
-	        <span className='num lang'>{this.state.data.language}</span>
+          <div className='octSec'>
+            <svg className='octicon octicon-repo-forked' height='16' viewBox='0 0 10 16' width='10'>
+              <path d='M8 1c-1.11 0-2 0.89-2 2 0 0.73 0.41 1.38 1 1.72v1.28L5 8 3 6v-1.28c0.59-0.34 1-0.98 1-1.72 0-1.11-0.89-2-2-2S0 1.89 0 3c0 0.73 0.41 1.38 1 1.72v1.78l3 3v1.78c-0.59 0.34-1 0.98-1 1.72 0 1.11 0.89 2 2 2s2-0.89 2-2c0-0.73-0.41-1.38-1-1.72V9.5l3-3V4.72c0.59-0.34 1-0.98 1-1.72 0-1.11-0.89-2-2-2zM2 4.2c-0.66 0-1.2-0.55-1.2-1.2s0.55-1.2 1.2-1.2 1.2 0.55 1.2 1.2-0.55 1.2-1.2 1.2z m3 10c-0.66 0-1.2-0.55-1.2-1.2s0.55-1.2 1.2-1.2 1.2 0.55 1.2 1.2-0.55 1.2-1.2 1.2z m3-10c-0.66 0-1.2-0.55-1.2-1.2s0.55-1.2 1.2-1.2 1.2 0.55 1.2 1.2-0.55 1.2-1.2 1.2z'></path>
+            </svg>
+            <span className='num'>{this.state.data.forks}</span>
+          </div>
 
         </CardActions>
 
