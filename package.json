@@ -8,8 +8,7 @@
     "start": "webpack-dev-server --devtool eval --progress --colors",
     "build": "webpack",
     "validate": "npm ls",
-    "update": "node scripts/update.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "update": "node scripts/update.js"
   },
   "repository": {
     "type": "git",

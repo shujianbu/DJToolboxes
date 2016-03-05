@@ -3,11 +3,9 @@
 
 # <a href="http://djchina.org/"><img src="https://raw.githubusercontent.com/shujianbu/DJToolboxes/master/build/img/favicon.png" width="50"></a>  DJChina Toolboxes
 
+DJToolboxes is ...
+
 ![Overview](https://raw.githubusercontent.com/shujianbu/DJToolboxes/master/overview.png)
-
-## About
-
-## Data
 
 ## Install
 ```sh
@@ -16,6 +14,8 @@ npm start
 npm build
 npm run update
 ```
+## Contribute
+
 ## TODO
 * filtering + search feature
 * description?
