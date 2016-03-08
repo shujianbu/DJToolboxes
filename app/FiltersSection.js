@@ -1,7 +1,7 @@
 'use strict';
 
 import React from 'react';
-// import injectTapEventPlugin from 'react-tap-event-plugin';
+import injectTapEventPlugin from 'react-tap-event-plugin';
 
 import ThemeManager from 'material-ui/lib/styles/theme-manager';
 import DropDownMenu from 'material-ui/lib/DropDownMenu';
@@ -12,10 +12,13 @@ import Toolbar from 'material-ui/lib/toolbar/toolbar';
 import ToolbarGroup from 'material-ui/lib/toolbar/toolbar-group';
 import ToolbarSeparator from 'material-ui/lib/toolbar/toolbar-separator';
 
+import Dialog from 'material-ui/lib/dialog';
+import FlatButton from 'material-ui/lib/flat-button';
+
 import { TOPICS, ORGS, TYPES } from './const';
 import DJTheme from './theme';
 
-// injectTapEventPlugin();
+injectTapEventPlugin();
 
 class FiltersSection extends React.Component {
 
@@ -35,6 +38,7 @@ class FiltersSection extends React.Component {
     }
 
     this.state = {
+      open  : false,
       topic : '0',
       org   : '0',
       type  : '0'
@@ -51,7 +55,7 @@ class FiltersSection extends React.Component {
     // set state
     let stateObj = Object.assign({}, this.state);
     stateObj[filter] = value;
-    this.setState(stateObj);
+    this.setState(stateObj); // TODO: need to add open
 
     // ropogate to parent
     this.props.updateFilter(stateObj);
@@ -66,7 +70,30 @@ class FiltersSection extends React.Component {
       this.props.updateSearch('');
   }
 
+  handleOpen() {
+    // TODO: pass new state
+    this.setState({open: true});
+  }
+
+  handleClose() {
+    this.setState({open: false});
+  }
+
   render() {
+    const actions = [
+      <FlatButton
+        label="OK"
+        secondary={true}
+        onTouchTap={this.handleClose.bind(this)}
+      />,
+      <FlatButton
+        label="Contribute"
+        primary={true}
+        keyboardFocused={true}
+        onTouchTap={this.handleClose.bind(this)}
+      />,
+    ];
+
     return (
       <Toolbar style={{background:'#fafafa'}}>
         <ToolbarGroup key={0} float='left' className='dropdowns'>
@@ -74,10 +101,24 @@ class FiltersSection extends React.Component {
           <DropDownMenu onChange={this.handleChange.bind(this, 'org')} value={this.state.org}  >{this.orgs}</DropDownMenu>
           <DropDownMenu onChange={this.handleChange.bind(this, 'type')} value={this.state.type} >{this.types}</DropDownMenu>
         </ToolbarGroup>
-        <ToolbarGroup key={1} float='right' className='searchbar'>
+
+        <ToolbarGroup key={1} float='left' className='searchbar'>
           <AutoComplete hintText='搜索工具库' filter={AutoComplete.caseInsensitiveFilter} dataSource={this.props.autoCompleteData} onNewRequest={this.handleSearch.bind(this)} onUpdateInput={this.clearSearch.bind(this)} />
-          <span className='infoIcon'>&#8505;</span>
         </ToolbarGroup>
+
+        <ToolbarGroup key={2} float='right'>
+          <FlatButton label="关于" style={{}} onTouchTap={this.handleOpen.bind(this)} />
+          <Dialog
+            title='案例库'
+            actions={actions}
+            modal={false}
+            open={this.state.open}
+            onRequestClose={this.handleClose.bind(this)}
+          > Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sed risus quis quam finibus feugiat vitae ut tortor. Mauris feugiat enim quis turpis pharetra fringilla. Donec libero nulla, ullamcorper sit amet blandit quis, porta vitae enim. Phasellus a ullamcorper massa. Sed bibendum ut justo eget ultrices. Sed rutrum quis tellus sodales elementum. Cras vitae tellus ipsum. Nullam eget ex leo. Maecenas tempor risus a tempor varius. Vivamus faucibus, urna vitae commodo pharetra, nulla magna tincidunt mauris, ut aliquam dolor felis sit amet tellus. Praesent sollicitudin eros sed leo congue posuere. Sed nec mi sed odio porttitor bibendum nec eget nibh.
+          </Dialog>
+
+        </ToolbarGroup>
+
       </Toolbar>
     );
   }

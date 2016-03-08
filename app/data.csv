@@ -1,91 +1,91 @@
 user,repo,html_url,notes,description,watch,star,forks,language
-NYTimes,objective-c-style-guide,https://github.com/NYTimes/objective-c-style-guide,newsroom,The Objective-C Style Guide used by The New York Times,287,3829,853,
-guardian,frontend,https://github.com/guardian/frontend,newsroom,Source for theguardian.com,175,3111,321,HTML
-newsapps,beeswithmachineguns,https://github.com/newsapps/beeswithmachineguns,newsroom,A utility for arming (creating) many bees (micro EC2 instances) to attack (load test) targets (web applications).,150,3043,345,Python
-BloombergMedia,whatiscode,https://github.com/BloombergMedia/whatiscode,newsroom,Paul Ford’s “What Is Code?”,102,2566,198,JavaScript
-fivethirtyeight,data,https://github.com/fivethirtyeight/data,newsroom,Data and code behind the stories and interactives at FiveThirtyEight,479,2177,888,Jupyter Notebook
+NYTimes,objective-c-style-guide,https://github.com/NYTimes/objective-c-style-guide,newsroom,The Objective-C Style Guide used by The New York Times,287,3838,858,
+guardian,frontend,https://github.com/guardian/frontend,newsroom,Source for theguardian.com,174,3117,320,HTML
+newsapps,beeswithmachineguns,https://github.com/newsapps/beeswithmachineguns,newsroom,A utility for arming (creating) many bees (micro EC2 instances) to attack (load test) targets (web applications).,149,3052,347,Python
+BloombergMedia,whatiscode,https://github.com/BloombergMedia/whatiscode,newsroom,Paul Ford’s “What Is Code?”,102,2568,198,JavaScript
+fivethirtyeight,data,https://github.com/fivethirtyeight/data,newsroom,Data and code behind the stories and interactives at FiveThirtyEight,481,2185,895,Jupyter Notebook
 nprapps,app-template,https://github.com/nprapps/app-template,newsroom,"The NPR visuals team's opinionated project template for client-side apps.",88,1053,149,JavaScript
-voxmedia,meme,https://github.com/voxmedia/meme,newsroom,Meme generator,128,613,204,JavaScript
-propublica,guides,https://github.com/propublica/guides,newsroom,"ProPublica's News App and Data Style Guides",79,410,89,HTML
-TimeMagazine,babynames,https://github.com/TimeMagazine/babynames,newsroom,"Fun with the Social Security Administration's baby name data",27,188,46,JavaScript
+voxmedia,meme,https://github.com/voxmedia/meme,newsroom,Meme generator,129,615,204,JavaScript
+propublica,guides,https://github.com/propublica/guides,newsroom,"ProPublica's News App and Data Style Guides",79,412,89,HTML
+TimeMagazine,babynames,https://github.com/TimeMagazine/babynames,newsroom,"Fun with the Social Security Administration's baby name data",27,190,46,JavaScript
 censusreporter,censusreporter,https://github.com/censusreporter/censusreporter,newsroom,Census Reporter is a Knight News Challenge-funded project to make it easier for journalists to write stories using information from the U.S. Census bureau.,28,136,59,HTML
-datadesk,python-elections,https://github.com/datadesk/python-elections,newsroom,"A Python wrapper for the Associated Press' U.S. election data service.",56,137,30,Python
+datadesk,python-elections,https://github.com/datadesk/python-elections,newsroom,"A Python wrapper for the Associated Press' U.S. election data service.",56,140,30,Python
 BuzzFeedNews,2014-06-bikeshare-gender-maps,https://github.com/BuzzFeedNews/2014-06-bikeshare-gender-maps,newsroom,"Data and code for BuzzFeed's bikeshare gender maps.",13,51,24,JavaScript
 huffpostdata,ap-election-loader,https://github.com/huffpostdata/ap-election-loader,newsroom,A Ruby library for loading election data from The Associated Press into MySQL,14,34,23,Ruby
 ajam,2014_payday-nation-data,https://github.com/ajam/2014_payday-nation-data,newsroom,Data for the Payday Nation project.,10,22,8,
 dukechronicle,chronline,https://github.com/dukechronicle/chronline,newsroom,The official repository for the Duke Chronicle website,27,17,2,Ruby
-mbostock,d3,https://github.com/mbostock/d3,charting,A JavaScript visualization library for HTML and SVG.,2223,47129,12621,JavaScript
-nnnick,Chart.js,https://github.com/nnnick/Chart.js,charting,Simple HTML5 Charts using the <canvas> tag,894,18437,5716,JavaScript
-Leaflet,Leaflet,https://github.com/Leaflet/Leaflet,"charting, maps", :leaves: JavaScript library for mobile-friendly interactive maps,690,12931,2338,JavaScript
-ecomfe,echarts,https://github.com/ecomfe/echarts,charting,A powerful charting and visualization library for browser,1052,10626,3815,JavaScript
-gionkunz,chartist-js,https://github.com/gionkunz/chartist-js,charting,Simple responsive charts,299,7743,1030,JavaScript
-jacomyal,sigma.js,https://github.com/jacomyal/sigma.js,charting,A JavaScript library dedicated to graph drawing,284,5935,876,JavaScript
-mozilla,metrics-graphics,https://github.com/mozilla/metrics-graphics,charting,"A library optimized for concise, principled data graphics and layouts.",199,5623,309,JavaScript
-dc-js,dc.js,https://github.com/dc-js/dc.js,"charting, multi-dimensional",Multi-Dimensional charting built to work natively with crossfilter rendered with d3.js,293,4702,1158,JavaScript
-epochjs,epoch,https://github.com/epochjs/epoch,"charting, real-time","A general purpose, real-time visualization library.",203,4448,239,HTML
-vega,vega,https://github.com/vega/vega,charting,A visualization grammar.,248,3940,396,JavaScript
-benpickles,peity,https://github.com/benpickles/peity,charting,"Progressive <svg> pie, donut, bar and line charts",120,3430,316,HTML
-densitydesign,raw,https://github.com/densitydesign/raw,charting,The missing link between spreadsheets and vector graphics,247,3377,663,JavaScript
-matplotlib,matplotlib,https://github.com/matplotlib/matplotlib,charting,matplotlib: plotting with Python,318,3356,1712,Python
-gka,chroma.js,https://github.com/gka/chroma.js,colors,JavaScript library for all kinds of color manipulations,106,2809,239,CoffeeScript
-samizdatco,arbor,https://github.com/samizdatco/arbor,charting,a graph visualization library using web workers and jQuery,161,2185,544,JavaScript
-Boris-Em,BEMSimpleLineGraph,https://github.com/Boris-Em/BEMSimpleLineGraph,"charting, iOS",Elegant Line Graphs for iOS (charting library),89,2017,290,Objective-C
-okfn,recline,https://github.com/okfn/recline,charting,A simple but powerful library for building data applications in pure Javascript and HTML.,130,1812,292,JavaScript
-HumbleSoftware,envisionjs,https://github.com/HumbleSoftware/envisionjs,charting,Dynamic HTML5 visualization,91,1492,239,JavaScript
-kartograph,kartograph.js,https://github.com/kartograph/kartograph.js,"charting, maps",Open source JavaScript renderer for Kartograph SVG maps,88,1378,216,JavaScript
-AnalyticalGraphicsInc,cesium,https://github.com/AnalyticalGraphicsInc/cesium,"charting, WebGL",WebGL virtual globe and map engine,177,1168,686,JavaScript
-stamen,modestmaps-js,https://github.com/stamen/modestmaps-js,"charting, maps",Modest Maps javascript port,61,515,140,JavaScript
-openaddresses,openaddresses,https://github.com/openaddresses/openaddresses,"open data, addresses",A repository of address data.,52,413,490,JavaScript
-unitedstates,congress-legislators,https://github.com/unitedstates/congress-legislators,"open data, politics","Members of the United States Congress, 1789-Present, in YAML, as well as committees, presidents, and vice presidents.",81,386,180,Python
-OpenExoplanetCatalogue,open_exoplanet_catalogue,https://github.com/OpenExoplanetCatalogue/open_exoplanet_catalogue,"open data, astronomy",The Open Exoplanet Catalogue,54,271,86,Python
-Chicago,food-inspections-evaluation,https://github.com/Chicago/food-inspections-evaluation,"open data, food",This repository contains the code to generate predictions of critical violations at food establishments in Chicago. It also contains the results of an evaluation of the effectiveness of those predictions.,24,82,37,HTML
-benbalter,congressional-districts,https://github.com/benbalter/congressional-districts,"open data, politics, maps","Historic and current US Congressional districts as GeoJSON, versioned within Git",12,75,20,
-cernopendata,opendata.cern.ch,https://github.com/cernopendata/opendata.cern.ch,open data,Invenio source code overlay for CERN Open Data Portal,33,60,31,Python
-newsdev,elex,https://github.com/newsdev/elex,"politics, newsroom",A wrapper for the AP v2 Elections API.,40,96,16,Python
-scitools,cartopy,https://github.com/SciTools/cartopy,mapping,Cartopy - a cartographic python library with matplotlib support,33,158,74,Python
-coleifer,peewee,https://github.com/coleifer/peewee,sql,"a small, expressive orm -- supports postgresql, mysql and sqlite",136,2596,441,Python
-buzzfeed-openlab,rss-puppy,https://github.com/buzzfeed-openlab/rss-puppy,newsroom,A watchdog tool for monitoring RSS feeds,12,279,13,JavaScript
-Quartz,bad-data-guide,https://github.com/Quartz/bad-data-guide,newsroom,An exhaustive reference to problems seen in real-world data along with suggestions on how to resolve them.,130,2378,147,
-jnordberg,gif.js,https://github.com/jnordberg/gif.js,gif,JavaScript GIF encoding library,74,1834,160,JavaScript
-cfpb,qu,https://github.com/cfpb/qu,government,qu is a data platform created to serve public data sets. This is a public domain work of the US Government. ,47,187,50,Clojure
-twitter,labella.js,https://github.com/twitter/labella.js,timeline,Placing labels on a timeline without overlap.,75,3239,88,JavaScript
+mbostock,d3,https://github.com/mbostock/d3,绘图,A JavaScript visualization library for HTML and SVG.,2234,47248,12663,JavaScript
+nnnick,Chart.js,https://github.com/nnnick/Chart.js,绘图,Simple HTML5 Charts using the <canvas> tag,893,18481,5737,JavaScript
+Leaflet,Leaflet,https://github.com/Leaflet/Leaflet,"绘图, 地图", :leaves: JavaScript library for mobile-friendly interactive maps,686,12967,2345,JavaScript
+ecomfe,echarts,https://github.com/ecomfe/echarts,绘图,A powerful charting and visualization library for browser,1057,10686,3833,JavaScript
+gionkunz,chartist-js,https://github.com/gionkunz/chartist-js,绘图,Simple responsive charts,301,7751,1036,JavaScript
+jacomyal,sigma.js,https://github.com/jacomyal/sigma.js,绘图,A JavaScript library dedicated to graph drawing,284,5943,877,JavaScript
+mozilla,metrics-graphics,https://github.com/mozilla/metrics-graphics,绘图,"A library optimized for concise, principled data graphics and layouts.",199,5635,309,JavaScript
+dc-js,dc.js,https://github.com/dc-js/dc.js,"绘图, multi-dimensional",Multi-Dimensional charting built to work natively with crossfilter rendered with d3.js,293,4709,1161,JavaScript
+epochjs,epoch,https://github.com/epochjs/epoch,"绘图, real-time","A general purpose, real-time visualization library.",203,4452,239,HTML
+vega,vega,https://github.com/vega/vega,绘图,A visualization grammar.,249,3951,398,JavaScript
+benpickles,peity,https://github.com/benpickles/peity,绘图,"Progressive <svg> pie, donut, bar and line charts",120,3430,317,HTML
+densitydesign,raw,https://github.com/densitydesign/raw,绘图,The missing link between spreadsheets and vector graphics,248,3383,664,JavaScript
+matplotlib,matplotlib,https://github.com/matplotlib/matplotlib,绘图,matplotlib: plotting with Python,319,3364,1716,Python
+gka,chroma.js,https://github.com/gka/chroma.js,colors,JavaScript library for all kinds of color manipulations,108,2820,240,CoffeeScript
+samizdatco,arbor,https://github.com/samizdatco/arbor,绘图,a graph visualization library using web workers and jQuery,161,2187,543,JavaScript
+Boris-Em,BEMSimpleLineGraph,https://github.com/Boris-Em/BEMSimpleLineGraph,"绘图, iOS",Elegant Line Graphs for iOS (charting library),89,2025,291,Objective-C
+okfn,recline,https://github.com/okfn/recline,绘图,A simple but powerful library for building data applications in pure Javascript and HTML.,130,1815,292,JavaScript
+HumbleSoftware,envisionjs,https://github.com/HumbleSoftware/envisionjs,绘图,Dynamic HTML5 visualization,91,1493,240,JavaScript
+kartograph,kartograph.js,https://github.com/kartograph/kartograph.js,"绘图, 地图",Open source JavaScript renderer for Kartograph SVG maps,87,1379,216,JavaScript
+AnalyticalGraphicsInc,cesium,https://github.com/AnalyticalGraphicsInc/cesium,"绘图, WebGL",WebGL virtual globe and map engine,177,1170,690,JavaScript
+stamen,modestmaps-js,https://github.com/stamen/modestmaps-js,"绘图, 地图",Modest Maps javascript port,61,515,140,JavaScript
+openaddresses,openaddresses,https://github.com/openaddresses/openaddresses,"公开数据, addresses",A repository of address data.,52,416,491,JavaScript
+unitedstates,congress-legislators,https://github.com/unitedstates/congress-legislators,"公开数据, politics","Members of the United States Congress, 1789-Present, in YAML, as well as committees, presidents, and vice presidents.",81,390,180,Python
+OpenExoplanetCatalogue,open_exoplanet_catalogue,https://github.com/OpenExoplanetCatalogue/open_exoplanet_catalogue,"公开数据, astronomy",The Open Exoplanet Catalogue,54,273,85,Python
+Chicago,food-inspections-evaluation,https://github.com/Chicago/food-inspections-evaluation,"公开数据, food",This repository contains the code to generate predictions of critical violations at food establishments in Chicago. It also contains the results of an evaluation of the effectiveness of those predictions.,24,84,38,HTML
+benbalter,congressional-districts,https://github.com/benbalter/congressional-districts,"公开数据, politics, 地图","Historic and current US Congressional districts as GeoJSON, versioned within Git",12,77,20,
+cernopendata,opendata.cern.ch,https://github.com/cernopendata/opendata.cern.ch,公开数据,Invenio source code overlay for CERN Open Data Portal,33,61,31,Python
+newsdev,elex,https://github.com/newsdev/elex,"politics, newsroom",A wrapper for the AP v2 Elections API.,39,108,16,Python
+scitools,cartopy,https://github.com/SciTools/cartopy,地图,Cartopy - a cartographic python library with matplotlib support,33,158,74,Python
+coleifer,peewee,https://github.com/coleifer/peewee,数据库,"a small, expressive orm -- supports postgresql, mysql and sqlite",135,2606,442,Python
+buzzfeed-openlab,rss-puppy,https://github.com/buzzfeed-openlab/rss-puppy,newsroom,A watchdog tool for monitoring RSS feeds,12,280,13,JavaScript
+Quartz,bad-data-guide,https://github.com/Quartz/bad-data-guide,newsroom,An exhaustive reference to problems seen in real-world data along with suggestions on how to resolve them.,131,2379,148,
+jnordberg,gif.js,https://github.com/jnordberg/gif.js,gif,JavaScript GIF encoding library,74,1837,161,JavaScript
+cfpb,qu,https://github.com/cfpb/qu,government,qu is a data platform created to serve public data sets. This is a public domain work of the US Government. ,47,190,50,Clojure
+twitter,labella.js,https://github.com/twitter/labella.js,timeline,Placing labels on a timeline without overlap.,75,3242,88,JavaScript
 GSA,govt-urls,https://github.com/GSA/govt-urls,government,"Most government websites end in .gov or .mil, but many do not. Allows you to tap into USA.gov's list of government URLs that don't end in .gov or .mil.",20,27,3,Ruby
-hadley,data-movies,https://github.com/hadley/data-movies,imdb,Download data from IMDB movies and parse into useful form,5,61,14,Ruby
-18F,open-data-maker,https://github.com/18F/open-data-maker,government,make it easy to turn a lot of potentially large csv files into easily accessible open data,87,121,83,Ruby
-developmentseed,landsat-util,https://github.com/developmentseed/landsat-util,mapping,"A utility to search, download and process Landsat 8 satellite imagery",76,331,79,Python
-bendc,animateplus,https://github.com/bendc/animateplus,animation,CSS and SVG animation library,70,1921,101,JavaScript
-MuseumofModernArt,collection,https://github.com/MuseumofModernArt/collection,art,The Museum of Modern Art (MoMA) collection data,59,608,87,
-jlevy,the-art-of-command-line,https://github.com/jlevy/the-art-of-command-line,tutorial,"Master the command line, in one page",1078,25727,2313,
-CartoDB,cartodb,https://github.com/CartoDB/cartodb,mapping,Location Intelligence & Data Visualization tool,163,1066,261,Ruby
+hadley,data-movies,https://github.com/hadley/data-movies,imdb,Download data from IMDB movies and parse into useful form,6,62,14,Ruby
+18F,open-data-maker,https://github.com/18F/open-data-maker,government,make it easy to turn a lot of potentially large csv files into easily accessible open data,87,121,84,Ruby
+developmentseed,landsat-util,https://github.com/developmentseed/landsat-util,地图,"A utility to search, download and process Landsat 8 satellite imagery",76,332,79,Python
+bendc,animateplus,https://github.com/bendc/animateplus,animation,CSS and SVG animation library,71,1927,102,JavaScript
+MuseumofModernArt,collection,https://github.com/MuseumofModernArt/collection,art,The Museum of Modern Art (MoMA) collection data,59,610,88,
+jlevy,the-art-of-command-line,https://github.com/jlevy/the-art-of-command-line,教程,"Master the command line, in one page",1073,25779,2315,
+CartoDB,cartodb,https://github.com/CartoDB/cartodb,地图,Location Intelligence & Data Visualization tool,164,1070,264,Ruby
 rstudio,ggvis,https://github.com/rstudio/ggvis,r,Interactive grammar of graphics for R,110,515,147,R
-18F,analytics-reporter,https://github.com/18F/analytics-reporter,google-analytics,"Lightweight analytics reporting and publishing tool for Google Analytics data. Powers https://analytics.usa.gov, http://analytics.phila.gov, and more.",27,295,63,JavaScript
-dkahle,ggmap,https://github.com/dkahle/ggmap,mapping,a package for plotting maps in R with ggplot2,24,154,70,R
-Geolicious,qgis2leaf,https://github.com/Geolicious/qgis2leaf,"qgis,leaflet",A QGIS plugin to create a working leaflet based webmap from it,24,114,27,Python
-alex,what-happens-when,https://github.com/alex/what-happens-when,4fun,"An attempt to answer the age old interview question ""What happens when you type google.com into your browser and press enter?""",527,9533,662,
-hadley,rvest,https://github.com/hadley/rvest,scraping,Simple web scraping for R,59,502,136,R
-mattboldt,typed.js,https://github.com/mattboldt/typed.js,jquery,A jQuery typing animation script.,81,2000,382,JavaScript
-davidmerfield,Typeset,https://github.com/davidmerfield/Typeset,type,An html pre-proces­sor for web ty­pog­ra­phy,53,2062,42,JavaScript
-edwardtufte,tufte-css,https://github.com/edwardtufte/tufte-css,css,"Style your webpage like Edward Tufte's handouts.",74,2261,150,HTML
-tiimgreen,github-cheat-sheet,https://github.com/tiimgreen/github-cheat-sheet,tutorial,A list of cool features of Git and GitHub.,936,18142,2031,
+18F,analytics-reporter,https://github.com/18F/analytics-reporter,google-analytics,"Lightweight analytics reporting and publishing tool for Google Analytics data. Powers https://analytics.usa.gov, http://analytics.phila.gov, and more.",27,295,67,JavaScript
+dkahle,ggmap,https://github.com/dkahle/ggmap,地图,a package for plotting maps in R with ggplot2,24,155,71,R
+Geolicious,qgis2leaf,https://github.com/Geolicious/qgis2leaf,"qgis,地图",A QGIS plugin to create a working leaflet based webmap from it,24,115,27,Python
+alex,what-happens-when,https://github.com/alex/what-happens-when,4fun,"An attempt to answer the age old interview question ""What happens when you type google.com into your browser and press enter?""",526,9550,662,
+hadley,rvest,https://github.com/hadley/rvest,scraping,Simple web scraping for R,59,503,136,R
+mattboldt,typed.js,https://github.com/mattboldt/typed.js,jquery,A jQuery typing animation script.,83,2014,386,JavaScript
+davidmerfield,Typeset,https://github.com/davidmerfield/Typeset,type,An html pre-proces­sor for web ty­pog­ra­phy,53,2062,43,JavaScript
+edwardtufte,tufte-css,https://github.com/edwardtufte/tufte-css,css,Style your webpage like Edward Tufte’s handouts.,74,2261,151,HTML
+tiimgreen,github-cheat-sheet,https://github.com/tiimgreen/github-cheat-sheet,教程,A list of cool features of Git and GitHub.,932,18166,2036,
 newsdev,odf,https://github.com/newsdev/odf,olympics,Scripts and tools to help in parsing the Olympic Data Feed from the International Olympic Committee,34,7,2,Ruby
-herrbischoff,awesome-osx-command-line,https://github.com/herrbischoff/awesome-osx-command-line,tutorial,Use your OS X terminal shell to do awesome things.,278,7179,325,
-fivethirtyeight,data,https://github.com/fivethirtyeight/data,newsroom,Data and code behind the stories and interactives at FiveThirtyEight,479,2177,888,Jupyter Notebook
-jprobinson,newshound,https://github.com/jprobinson/newshound,newsroom,Newshound: The Breaking News Email Aggregator,3,44,6,Go
-ether,etherpad-lite,https://github.com/ether/etherpad-lite,text-editor,Etherpad: Really real-time collaborative document editing,332,5323,1200,JavaScript
-Quartz,Chartbuilder,https://github.com/Quartz/Chartbuilder,"newsroom,charting",,114,1733,280,JavaScript
-Quartz,bad-data-guide,https://github.com/Quartz/bad-data-guide,"newsroom,data",An exhaustive reference to problems seen in real-world data along with suggestions on how to resolve them.,130,2378,147,
-jlord,sheetsee.js,https://github.com/jlord/sheetsee.js,charting,:eyes: :chart_with_upwards_trend: Visualize Data from a Google Spreadsheet,221,1893,347,JavaScript
-voxmedia,meme,https://github.com/voxmedia/meme,newsroom,Meme generator,128,613,204,JavaScript
+herrbischoff,awesome-osx-command-line,https://github.com/herrbischoff/awesome-osx-command-line,教程,Use your OS X terminal shell to do awesome things.,278,7199,325,
+fivethirtyeight,data,https://github.com/fivethirtyeight/data,newsroom,Data and code behind the stories and interactives at FiveThirtyEight,481,2185,895,Jupyter Notebook
+jprobinson,newshound,https://github.com/jprobinson/newshound,newsroom,Newshound: The Breaking News Email Aggregator,3,45,6,Go
+ether,etherpad-lite,https://github.com/ether/etherpad-lite,text-editor,Etherpad: Really real-time collaborative document editing,332,5334,1203,JavaScript
+Quartz,Chartbuilder,https://github.com/Quartz/Chartbuilder,"newsroom,绘图",,114,1735,281,JavaScript
+Quartz,bad-data-guide,https://github.com/Quartz/bad-data-guide,"newsroom,data",An exhaustive reference to problems seen in real-world data along with suggestions on how to resolve them.,131,2379,148,
+jlord,sheetsee.js,https://github.com/jlord/sheetsee.js,绘图,:eyes: :chart_with_upwards_trend: Visualize Data from a Google Spreadsheet,223,1894,350,JavaScript
+voxmedia,meme,https://github.com/voxmedia/meme,newsroom,Meme generator,129,615,204,JavaScript
 NUKnightLab,soundcite,https://github.com/NUKnightLab/soundcite,sound,Making Inline Audio Easy and Seamless,22,98,21,HTML
-nytlabs,streamtools,https://github.com/nytlabs/streamtools,newsroom,tools for working with streams of data,85,1271,111,Go
-nprapps,pym.js,https://github.com/nprapps/pym.js,newsroom,Resize an iframe responsively depending on the height of its content and the width of its container.,48,480,72,HTML
-nprapps,dailygraphics,https://github.com/nprapps/dailygraphics,charting,"NPR Visuals' rig for deploying daily graphics projects in responsive iframes.",38,166,27,JavaScript
+nytlabs,streamtools,https://github.com/nytlabs/streamtools,newsroom,tools for working with streams of data,85,1272,112,Go
+nprapps,pym.js,https://github.com/nprapps/pym.js,newsroom,Resize an iframe responsively depending on the height of its content and the width of its container.,48,481,72,HTML
+nprapps,dailygraphics,https://github.com/nprapps/dailygraphics,绘图,"NPR Visuals' rig for deploying daily graphics projects in responsive iframes.",38,166,27,JavaScript
 nprapps,bestpractices,https://github.com/nprapps/bestpractices,newsroom,Best practices and coding conventions for the NPR Visuals team.,40,227,27,
-BuzzFeedNews,zika-data,https://github.com/BuzzFeedNews/zika-data,zika,Data — and pointers to data — related to the 2015–16 Zika virus outbreak.,17,52,15,Python
-pippinlee,open-journalism-project,https://github.com/pippinlee/open-journalism-project,open-journalism,Resource to bring code and journalism together for fun,5,18,10,HTML
-ajam,pulp,https://github.com/ajam/pulp,4fun,A vivacious viewer for web comics.,9,78,6,JavaScript
+BuzzFeedNews,zika-data,https://github.com/BuzzFeedNews/zika-data,zika,Data — and pointers to data — related to the 2015–16 Zika virus outbreak.,18,53,16,Python
+pippinlee,open-journalism-project,https://github.com/pippinlee/open-journalism-project,公开数据,Resource to bring code and journalism together for fun,5,18,10,HTML
+ajam,pulp,https://github.com/ajam/pulp,4fun,A vivacious viewer for web comics.,10,78,6,JavaScript
 BuzzFeedNews,everything,https://github.com/BuzzFeedNews/everything,newsroom,"An index of all our open-source data, analysis, libraries, tools, and guides.",28,103,11,
-NYTimes,NYTPhotoViewer,https://github.com/NYTimes/NYTPhotoViewer,newsroom,A modern photo viewing experience for iOS.,54,1332,135,Objective-C
-NYTimes,svg-crowbar,https://github.com/NYTimes/svg-crowbar,svg,Extracts an SVG node and accompanying styles from an HTML document and allows you to download it all as an SVG file.,35,369,76,JavaScript
+NYTimes,NYTPhotoViewer,https://github.com/NYTimes/NYTPhotoViewer,newsroom,A modern photo viewing experience for iOS.,55,1345,136,Objective-C
+NYTimes,svg-crowbar,https://github.com/NYTimes/svg-crowbar,svg,Extracts an SVG node and accompanying styles from an HTML document and allows you to download it all as an SVG file.,35,372,79,JavaScript
 NYTimes,pourover,https://github.com/NYTimes/pourover,newsroom,"A library for simple, fast filtering and sorting of large collections in the browser.   There is a community-maintained fork that addresses a handful of post-NYT issues available via @hhsnopek's https://github.com/hhsnopek/pourover",90,2391,129,JavaScript
 NYTimes,Emphasis,https://github.com/NYTimes/Emphasis,newsroom,Dynamic Deep-Linking and Highlighting,25,547,59,JavaScript

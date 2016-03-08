@@ -1,7 +1,6 @@
 'use strict';
 
 import React from 'react';
-import injectTapEventPlugin from 'react-tap-event-plugin';
 
 import Avatar from 'material-ui/lib/avatar';
 import Card from 'material-ui/lib/card/card';
@@ -17,8 +16,6 @@ import DJTheme from './theme';
 const colorsArr = [styles.Colors.amber500, styles.Colors.brown400, styles.Colors.blueGrey500, styles.Colors.pink400, styles.Colors.green500,
   styles.Colors.teal500, styles.Colors.blue300, styles.Colors.indigo400, styles.Colors.purple500, styles.Colors.red500];
 const greyCol = styles.Colors.grey200;
-
-injectTapEventPlugin();
 
 class StoryBoard extends React.Component {
 
@@ -125,6 +122,7 @@ class StoryBoard extends React.Component {
     ret.star = data['star'];
     ret.forks = data['forks'];
     ret.language = data['language'];
+    ret.tags = data['notes'];
     ret.style = this.getStyleName(data['language']);
     ret.logo = this.getLogo(ret.user);
     ret.name = this.getOrg(ret.user);
@@ -169,6 +167,13 @@ class StoryBoard extends React.Component {
               <path d='M8 1c-1.11 0-2 0.89-2 2 0 0.73 0.41 1.38 1 1.72v1.28L5 8 3 6v-1.28c0.59-0.34 1-0.98 1-1.72 0-1.11-0.89-2-2-2S0 1.89 0 3c0 0.73 0.41 1.38 1 1.72v1.78l3 3v1.78c-0.59 0.34-1 0.98-1 1.72 0 1.11 0.89 2 2 2s2-0.89 2-2c0-0.73-0.41-1.38-1-1.72V9.5l3-3V4.72c0.59-0.34 1-0.98 1-1.72 0-1.11-0.89-2-2-2zM2 4.2c-0.66 0-1.2-0.55-1.2-1.2s0.55-1.2 1.2-1.2 1.2 0.55 1.2 1.2-0.55 1.2-1.2 1.2z m3 10c-0.66 0-1.2-0.55-1.2-1.2s0.55-1.2 1.2-1.2 1.2 0.55 1.2 1.2-0.55 1.2-1.2 1.2z m3-10c-0.66 0-1.2-0.55-1.2-1.2s0.55-1.2 1.2-1.2 1.2 0.55 1.2 1.2-0.55 1.2-1.2 1.2z'></path>
             </svg>
             <span className='num'>{this.state.data.forks}</span>
+          </div>
+
+          <div className='octSec tags'>
+            <svg className='octicon octicon-tag' height='16' viewBox='0 0 14 16' width='14'>
+              <path d='M6.73 2.73c-0.47-0.47-1.11-0.73-1.77-0.73H2.5C1.13 2 0 3.13 0 4.5v2.47c0 0.66 0.27 1.3 0.73 1.77l6.06 6.06c0.39 0.39 1.02 0.39 1.41 0l4.59-4.59c0.39-0.39 0.39-1.02 0-1.41L6.73 2.73zM1.38 8.09c-0.31-0.3-0.47-0.7-0.47-1.13V4.5c0-0.88 0.72-1.59 1.59-1.59h2.47c0.42 0 0.83 0.16 1.13 0.47l6.14 6.13-4.73 4.73L1.38 8.09z m0.63-4.09h2v2H2V4z'></path>
+            </svg>
+            <span className='num'>{this.state.data.tags}</span>
           </div>
 
         </CardActions>

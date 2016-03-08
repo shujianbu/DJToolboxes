@@ -4,18 +4,11 @@ body {
   font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 20px;
   margin: 20px 40px;
-  min-width: 900px;
+  min-width: 1000px;
 }
 
 .infoIcon {
-  margin-left: 15px;
-  display: inline-block;
-  width: 30px;
-  height: 30px;
-  border-radius: 50%;
-  color: #61a4e0;
-  background-color: #d6e0ea;
-  text-align: center;
+
 }
 
 .storyBoard {
@@ -103,6 +96,13 @@ body {
 }
 .langicon.scala {
   background-color: #DC322F;
+}
+
+.tags {
+  width: 150px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
 }
 
 .octicon {
