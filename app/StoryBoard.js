@@ -105,7 +105,7 @@ class StoryBoard extends React.Component {
 
   getOrg(name) {
     for(let i = 1; i < ORGS.length; i++) {
-      if(ORGS[i].label.toLowerCase() == name.toLowerCase()) {
+      if(ORGS[i].label.toLowerCase() === name.toLowerCase()) {
         return ORGS[i].en;
       }
     }
@@ -181,7 +181,7 @@ class StoryBoard extends React.Component {
       </Card>
     );
   }
-};
+}
 
 StoryBoard.childContextTypes = {
   muiTheme: React.PropTypes.object

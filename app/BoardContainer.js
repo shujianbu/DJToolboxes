@@ -31,11 +31,11 @@ class BoardContainer extends React.Component {
         if(flag && filter !== null && filter.org !== '0' && ORGS[filter.org].label !== org) {
           flag = false;
         }
-        if(flag && filter !== null && filter.type !== '0' && type.indexOf(TYPES[filter.type].label) == -1) {
+        if(flag && filter !== null && filter.type !== '0' && type.indexOf(TYPES[filter.type].label) === -1) {
           flag = false;
         }
         if(flag && (nextProps.search !== self.props.search || nextProps.search !== '')) {
-          if(title.indexOf(nextProps.search) == -1) {
+          if(title.indexOf(nextProps.search) === -1) {
             flag = false;
           }
         }

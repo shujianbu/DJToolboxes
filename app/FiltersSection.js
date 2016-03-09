@@ -91,7 +91,7 @@ class FiltersSection extends React.Component {
         primary={true}
         keyboardFocused={true}
         onTouchTap={this.handleClose.bind(this)}
-      />,
+      />
     ];
 
     return (
@@ -122,7 +122,7 @@ class FiltersSection extends React.Component {
       </Toolbar>
     );
   }
-};
+}
 
 FiltersSection.childContextTypes = {
   muiTheme: React.PropTypes.object
