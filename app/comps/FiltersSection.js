@@ -15,8 +15,8 @@ import ToolbarSeparator from 'material-ui/lib/toolbar/toolbar-separator';
 import Dialog from 'material-ui/lib/dialog';
 import FlatButton from 'material-ui/lib/flat-button';
 
-import { TOPICS, ORGS, TYPES } from './const';
-import DJTheme from './theme';
+import { TOPICS, ORGS, TYPES } from '../data/const';
+import DJTheme from '../styles/theme';
 
 injectTapEventPlugin();
 

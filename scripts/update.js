@@ -5,7 +5,7 @@ var fs        = require('fs')
   , ini       = require('ini');
 
 var inFile     = path.join(__dirname, '/list.csv')
-  , outFile    = path.join(__dirname, '/../app/data.csv')
+  , outFile    = path.join(__dirname, '/../app/data/data.csv')
   , configFile = path.join(__dirname, '/../.gitconfig.local');
 
 var github, ws;

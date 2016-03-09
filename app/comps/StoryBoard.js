@@ -10,8 +10,8 @@ import CardText from 'material-ui/lib/card/card-text';
 import ThemeManager from 'material-ui/lib/styles/theme-manager';
 import styles from 'material-ui/lib/styles';
 
-import {ORGS} from './const';
-import DJTheme from './theme';
+import {ORGS} from '../data/const';
+import DJTheme from '../styles/theme';
 
 const colorsArr = [styles.Colors.amber500, styles.Colors.brown400, styles.Colors.blueGrey500, styles.Colors.pink400, styles.Colors.green500,
   styles.Colors.teal500, styles.Colors.blue300, styles.Colors.indigo400, styles.Colors.purple500, styles.Colors.red500];

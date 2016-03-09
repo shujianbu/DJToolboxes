@@ -2,9 +2,10 @@
 
 import React from 'react';
 import ReactDOM from 'react-dom';
-import FiltersSection from './FiltersSection';
-import BoardContainer from './BoardContainer';
-import data from './data.csv';
+import FiltersSection from './comps/FiltersSection';
+import BoardContainer from './comps/BoardContainer';
+import data from './data/data.csv';
+import css from './styles/base.css';
 
 class APP extends React.Component {
   constructor() {

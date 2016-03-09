@@ -1,7 +1,7 @@
 
 import React from 'react';
 import StoryBoard from './StoryBoard';
-import {TOPICS, ORGS, TYPES} from './const';
+import {TOPICS, ORGS, TYPES} from '../data/const';
 
 class BoardContainer extends React.Component {
   constructor(props) {
