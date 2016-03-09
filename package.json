@@ -29,6 +29,7 @@
     "babel": "^5.8.34",
     "babel-core": "^5.8.34",
     "babel-loader": "^5.3.2",
+    "cz-conventional-changelog": "^1.1.5",
     "eslint-plugin-react": "^3.3.0",
     "fast-csv": "^1.0.0",
     "github": "^0.2.4",
@@ -49,5 +50,10 @@
     "style-loader": "^0.13.0",
     "url-loader": "^0.5.7",
     "webpack": "^1.12.14"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
