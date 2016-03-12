@@ -1,13 +1,25 @@
 language: node_js
-sudo: false
+
 node_js:
-  - "0.12"
-  - "4.2.4"
-  - "5.4.1"
-env:
-  - NODE_ENV=development
+- '0.12'
+- '4.2.4'
+
+branches:
+  only:
+  - master
 
 before_script:
-  - npm i -g webpack
+- npm i -g webpack
 
-script: webpack
+script:
+- npm run build
+
+after_success:
+- npm run deploy
+
+env:
+  matrix:
+  - NODE_ENV=development
+  global:
+    - GH_REF: github.com/shujianbu/DJToolboxes.git
+    - secure: Cb/71mfDYD4Xre6+EbgPjHosRXUo+/zMra2u/zF1q8xh76D4tALj8FIYZo/4GEPZVmLDfAnG92tPnHMgFDwcaE2pnxGQfadcv5jNRo6Ckbldrc5SGcVUMixl2bafVuhWaNuBDgJ0vzw5exk4l55742xmgz3tcWiWK7QUhL2QXLxL1i7MZPmr23kAoYjoqlSCD89eFLsWSs9ypo/fTML1u91JCcgLMI+yCY9C3f3CGTpxun52zkJrbP1ZAavOdJ6TKrs7ezqBAsxVzZbJANdH/lVJLUg9q66gA+oCWPuGeBMxzbekNiKJ8uuMpHw1Mlzb1/O2ULjGNFZqIgn3CQ1pq/htthGv9gL7nn/5wXRGYx9iaqYAX121iLbdt8N2uJWqIrpyDu05YsM8nsl03hvSjU8xVNcGGVURhcclbQef29yE0sGHLNDFJigdLt/rHlGGh4L/X1A8ZlnMqTzCy5NnIOIsjBwvfZVqXuFYYdkDiTAY+T7JuyYILO6m9OOcnWoRpplHnNvCg+hkSBMdnnW2Rn9mUtpJfX3JdKHsmLt58S4jsyi0E7a7Xh8kEchUjgUw1WTLUAvOTBpZ8+nP6qhx5fpxO9j0zE5rKAtXvR9BuJJxsSaTFVsTvjgoIe0EjdSNfrZtePYw6F35+FAL21YYsUjXtYL3+mLnvKOMFh589Lc=

@@ -8,14 +8,16 @@ DJToolboxes is ...
 
 ![Overview](https://raw.githubusercontent.com/shujianbu/DJToolboxes/master/overview.png)
 
-## Install
+## Contribute
+
+## Development
 ```sh
 npm install
 npm start
-npm build
+npm run build
+npm run deploy
 npm run update
 ```
-## Contribute
 
 ## TODO
 * filtering + search feature

@@ -7,6 +7,8 @@
   "scripts": {
     "start": "webpack-dev-server --devtool eval --progress --colors",
     "build": "webpack",
+    "deploy": "./deploy.sh",
+    "update": "node ./scripts/update.js",
     "validate": "npm ls",
     "update": "node scripts/update.js"
   },
@@ -18,13 +20,14 @@
     "data",
     "journalism",
     "visualization",
-    "tools"
+    "tools",
+    "数据新闻"
   ],
   "author": "Shujian Bu",
   "bugs": {
     "url": "https://github.com/shujianbu/DJToolboxes/issues"
   },
-  "homepage": "https://github.com/shujianbu/DJToolboxes",
+  "homepage": "http://shujianbu.github.io/DJToolboxes/",
   "devDependencies": {
     "babel": "^5.8.34",
     "babel-core": "^5.8.34",
@@ -48,8 +51,7 @@
     "react-dom": "^0.14.5",
     "react-tap-event-plugin": "^0.2.1",
     "style-loader": "^0.13.0",
-    "url-loader": "^0.5.7",
-    "webpack": "^1.12.14"
+    "url-loader": "^0.5.7"
   },
   "config": {
     "commitizen": {
