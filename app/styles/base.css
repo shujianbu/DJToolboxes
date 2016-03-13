@@ -4,7 +4,7 @@ body {
   font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 20px;
   margin: 20px 40px;
-  min-width: 1000px;
+  /*min-width: 1000px;*/
 }
 
 .infoIcon {
@@ -121,3 +121,29 @@ a:hover {
   cursor: pointer;
   color: #d37324;
 }
+
+.nav-bar {
+  overflow-y:hidden;
+}
+
+@media screen and (max-width: 991px) {
+}
+
+@media screen and (max-width: 960px) {
+}
+
+@media screen and (max-width: 880px) {    
+    .numSec {
+    visibility: hidden;
+  }
+}
+
+@media screen and (max-width: 845px) {
+}
+
+@media screen and (max-width: 640px) {
+}
+
+@media screen and (max-width: 500px) {
+}
+
