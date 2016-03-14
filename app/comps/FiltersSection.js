@@ -95,7 +95,7 @@ class FiltersSection extends React.Component {
     ];
 
     return (
-      <Toolbar style={{background:'#fafafa'}}>
+      <Toolbar className = "nav-bar" style={{background:'#fafafa'}}>
         <ToolbarGroup key={0} float='left' className='dropdowns'>
           <DropDownMenu onChange={this.handleChange.bind(this, 'topic')} value={this.state.topic}>{this.topics}</DropDownMenu>
           <DropDownMenu onChange={this.handleChange.bind(this, 'org')} value={this.state.org}  >{this.orgs}</DropDownMenu>
@@ -106,7 +106,7 @@ class FiltersSection extends React.Component {
           <AutoComplete hintText='搜索工具库' filter={AutoComplete.caseInsensitiveFilter} dataSource={this.props.autoCompleteData} onNewRequest={this.handleSearch.bind(this)} onUpdateInput={this.clearSearch.bind(this)} />
         </ToolbarGroup>
 
-        <ToolbarGroup key={2} float='right'>
+        <ToolbarGroup key={2} float='right' className = 'about'>
           <FlatButton label="关于" style={{}} onTouchTap={this.handleOpen.bind(this)} />
           <Dialog
             title='案例库'
