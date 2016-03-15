@@ -93,7 +93,7 @@ class StoryBoard extends React.Component {
 
   getLogo(name) {
     for(let i = 1; i < ORGS.length; i++) {
-      if(ORGS[i].label.toLowerCase() == name.toLowerCase()) {
+      if(ORGS[i].id.toLowerCase() == name.toLowerCase()) {
         return './img/logo/' + ORGS[i].value + '.png';
       }
     }

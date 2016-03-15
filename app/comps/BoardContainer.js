@@ -14,31 +14,26 @@ class BoardContainer extends React.Component {
 
   componentWillReceiveProps(nextProps) {
     var self = this;
-
     if(JSON.stringify(self.props.filter) !== JSON.stringify(nextProps.filter) || nextProps.search !== self.props.search) {
       var filter = nextProps.filter;
       var temp = [];
       self.state.storyBoards.forEach(function(sb) {
-        var topic = sb['Topic'];
+        var topic = sb['notes'];
         var org   = sb['user'];
-        var type  = sb['Type'];
-        var title = sb['repo'].toLocaleLowerCase();
+        var type  = sb['language'];
+        var title = sb['repo'];
         var flag  = true;
 
-        if(filter !== null && filter.topic !== '0' && TOPICS[filter.topic].label !== topic) {
+        if(filter !== null && filter.topic !== '0' && topic.indexOf(TOPICS[filter.topic].label) === -1) {
           flag = false;
         }
-        if(flag && filter !== null && filter.org !== '0' && ORGS[filter.org].label !== org) {
+        if(flag && filter !== null && filter.org !== '0' && ORGS[filter.org].id !== org) {
           flag = false;
         }
         if(flag && filter !== null && filter.type !== '0' && type.indexOf(TYPES[filter.type].label) === -1) {
           flag = false;
         }
-        if(flag && (nextProps.search !== self.props.search || nextProps.search !== '')) {
-          if(title.indexOf(nextProps.search) === -1) {
-            flag = false;
-          }
-        }
+
         if(flag) {
           temp.push(sb);
         }

@@ -10,28 +10,18 @@ import css from './styles/base.css';
 class APP extends React.Component {
   constructor() {
     super()
-    this.state = {filter: null, search: ''};
-
-    var autoCompleteData = [];
-    data.forEach(function(d) {
-      autoCompleteData.push(d['Title']);
-    });
-    this.autoCompleteData = autoCompleteData;
+    this.state = {filter: null};
   }
 
   handleFilterUpdate(obj) {
     this.setState({filter: obj});
   }
 
-  handleSearch(str) {
-    this.setState({search: str});
-  }
-
   render() {
     return (
       <div>
-        <FiltersSection autoCompleteData={this.autoCompleteData} updateFilter={this.handleFilterUpdate.bind(this)} updateSearch={this.handleSearch.bind(this)} />
-        <BoardContainer data={data} filter={this.state.filter} search={this.state.search}/>
+        <FiltersSection updateFilter={this.handleFilterUpdate.bind(this)} />
+        <BoardContainer data={data} filter={this.state.filter} />
       </div>
     );
   }

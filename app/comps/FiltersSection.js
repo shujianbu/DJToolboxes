@@ -6,7 +6,6 @@ import injectTapEventPlugin from 'react-tap-event-plugin';
 import ThemeManager from 'material-ui/lib/styles/theme-manager';
 import DropDownMenu from 'material-ui/lib/DropDownMenu';
 import MenuItem from 'material-ui/lib/menus/menu-item';
-import AutoComplete from 'material-ui/lib/auto-complete';
 
 import Toolbar from 'material-ui/lib/toolbar/toolbar';
 import ToolbarGroup from 'material-ui/lib/toolbar/toolbar-group';
@@ -52,31 +51,23 @@ class FiltersSection extends React.Component {
   }
 
   handleChange(filter, e, index, value) {
-    // set state
     let stateObj = Object.assign({}, this.state);
     stateObj[filter] = value;
-    this.setState(stateObj); // TODO: need to add open
-
-    // ropogate to parent
+    stateObj['open'] = false;
+    this.setState(stateObj);
     this.props.updateFilter(stateObj);
   }
 
-  handleSearch(str) {
-    this.props.updateSearch(str.toLocaleLowerCase());
-  }
-
-  clearSearch(str) {
-    if(str.length === 0)
-      this.props.updateSearch('');
-  }
-
   handleOpen() {
-    // TODO: pass new state
-    this.setState({open: true});
+    let stateObj = Object.assign({}, this.state);
+    stateObj['open'] = true;
+    this.setState(stateObj);
   }
 
   handleClose() {
-    this.setState({open: false});
+    let stateObj = Object.assign({}, this.state);
+    stateObj['open'] = false;
+    this.setState(stateObj);
   }
 
   render() {
@@ -102,11 +93,7 @@ class FiltersSection extends React.Component {
           <DropDownMenu onChange={this.handleChange.bind(this, 'type')} value={this.state.type} >{this.types}</DropDownMenu>
         </ToolbarGroup>
 
-        <ToolbarGroup key={1} float='left' className='searchbar'>
-          <AutoComplete hintText='搜索工具库' filter={AutoComplete.caseInsensitiveFilter} dataSource={this.props.autoCompleteData} onNewRequest={this.handleSearch.bind(this)} onUpdateInput={this.clearSearch.bind(this)} />
-        </ToolbarGroup>
-
-        <ToolbarGroup key={2} float='right' className = 'about'>
+        <ToolbarGroup key={1} float='right' className = 'about'>
           <FlatButton label="关于" style={{}} onTouchTap={this.handleOpen.bind(this)} />
           <Dialog
             title='案例库'
@@ -116,9 +103,7 @@ class FiltersSection extends React.Component {
             onRequestClose={this.handleClose.bind(this)}
           > Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sed risus quis quam finibus feugiat vitae ut tortor. Mauris feugiat enim quis turpis pharetra fringilla. Donec libero nulla, ullamcorper sit amet blandit quis, porta vitae enim. Phasellus a ullamcorper massa. Sed bibendum ut justo eget ultrices. Sed rutrum quis tellus sodales elementum. Cras vitae tellus ipsum. Nullam eget ex leo. Maecenas tempor risus a tempor varius. Vivamus faucibus, urna vitae commodo pharetra, nulla magna tincidunt mauris, ut aliquam dolor felis sit amet tellus. Praesent sollicitudin eros sed leo congue posuere. Sed nec mi sed odio porttitor bibendum nec eget nibh.
           </Dialog>
-
         </ToolbarGroup>
-
       </Toolbar>
     );
   }

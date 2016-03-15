@@ -4,11 +4,10 @@ body {
   font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 20px;
   margin: 20px 40px;
-  /*min-width: 1000px;*/
 }
 
-.infoIcon {
-
+.searchbar {
+  margin-top: 5px;
 }
 
 .storyBoard {
@@ -132,7 +131,7 @@ a:hover {
 @media screen and (max-width: 960px) {
 }
 
-@media screen and (max-width: 880px) {    
+@media screen and (max-width: 880px) {
     .numSec {
     visibility: hidden;
   }

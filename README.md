@@ -20,6 +20,5 @@ npm run update
 ```
 
 ## TODO
-* filtering + search feature
 * dialog readme & restyling
 * description?
