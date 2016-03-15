@@ -30,7 +30,7 @@ class BoardContainer extends React.Component {
         if(flag && filter !== null && filter.org !== '0' && ORGS[filter.org].id !== org) {
           flag = false;
         }
-        if(flag && filter !== null && filter.type !== '0' && type.indexOf(TYPES[filter.type].label) === -1) {
+        if(flag && filter !== null && filter.type !== '0' && type !== TYPES[filter.type].label ) {
           flag = false;
         }
 
