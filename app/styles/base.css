@@ -12,6 +12,7 @@ body {
 
 .storyBoard {
   margin-top: 15px;
+  text-overflow: ellipsis;
 }
 
 .numSec {
@@ -150,6 +151,14 @@ a:hover {
 
   .storyBoard {
     height: 70px;
+  }
+
+  .storyBoard a{
+    text-overflow: ellipsis;
+  }
+
+  body {
+    margin: 0px;
   }
 }
 
