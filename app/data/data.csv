@@ -104,3 +104,7 @@ jacksontian,fks,https://github.com/JacksonTian/fks,资源集,前端技能汇总 
 pissang,qtek,https://github.com/pissang/qtek,WebGL,WebGL graphic library,44,253,51,JavaScript
 sparanoid,chinese-copywriting-guidelines,https://github.com/sparanoid/chinese-copywriting-guidelines,排版,Chinese Copywriting Guidelines / 中文文案排版指北,102,1522,207,CoffeeScript
 aui,font-spider,https://github.com/aui/font-spider,字体,中文 WebFont 自动化压缩工具,88,1432,196,JavaScript
+WSJ,pinpoint-editor,https://github.com/WSJ/pinpoint-editor,地图,Web app for quickly creating and editing Pinpoint maps,13,25,2,JavaScript
+WSJ,cardkit-watermark,https://github.com/WSJ/cardkit-watermark,新闻室,User-friendly web app for quickly cropping and adding credits to images for social media,27,5,1,JavaScript
+WSJ,squaire,https://github.com/WSJ/squaire,地图,Javascript library to create equal-area square cartograms using d3.js,15,45,2,JavaScript
+WSJ,the-meta-tag-checker,https://github.com/WSJ/the-meta-tag-checker,新闻室,Easy-to-configure social-media meta tag checker and validator,13,11,0,JavaScript
