@@ -138,11 +138,9 @@ class StoryBoard extends React.Component {
         title=<a href={'https://github.com/' + this.state.data.user + '/' + this.state.data.title} target='_blank'>{this.state.data.title}</a>
         subtitle=<a href={'https://github.com/' + this.state.data.user} target='_blank'>{this.state.data.name}</a>
         avatar={this.state.data.logo}
-        actAsExpander={true}
-        showExpandableButton={true} />
+        actAsExpander={true}/>
 
-        <CardActions className='numSec'>
-
+        <CardActions className='numSec' showExpandableButton={true}>
           <div className='octSec lang'>
             <span className={this.state.data.style}></span>
             <span className='num'>{this.state.data.language}</span>
