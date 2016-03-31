@@ -117,6 +117,14 @@ a {
   text-decoration: none;
 }
 
+.aboutCont {
+  font-size: 14px;
+}
+
+.aboutCont a {
+  color: #03A9F4;
+}
+
 a:hover {
   cursor: pointer;
   color: #d37324;
