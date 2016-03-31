@@ -1,4 +1,4 @@
-﻿id,user,repo,notes
+﻿﻿id,user,repo,notes
 1,nytimes,objective-c-style-guide,新闻室
 2,guardian,frontend,新闻室
 3,newsapps,beeswithmachineguns,新闻室
@@ -29,7 +29,7 @@
 28,matplotlib,matplotlib,图表
 29,gka,chroma.js,色彩
 30,samizdatco,arbor,图表
-31,boris-em,bemsimplelinegraph,"图表,iOS"
+31,boris-em,bemsimplelinegraph,"图表,移动端"
 32,okfn,recline,图表
 33,humblesoftware,envisionjs,图表
 34,kartograph,kartograph.js,"图表, 地图"
@@ -43,7 +43,7 @@
 42,cernopendata,opendata.cern.ch,开放数据
 43,newsdev,elex,"政治,新闻室"
 44,scitools,cartopy,地图
-45,coleifer,peewee,SQL
+45,coleifer,peewee,数据库
 46,buzzfeed-openlab,rss-puppy,新闻室
 47,quartz,bad-data-guide,新闻室
 48,jnordberg,gif.js,GIF
@@ -107,4 +107,8 @@
 106,WSJ,pinpoint-editor,地图
 107,WSJ,cardkit-watermark,新闻室
 108,WSJ,squaire,地图
+<<<<<<< HEAD
 109,WSJ,the-meta-tag-checker,新闻室
+=======
+109,WSJ,the-meta-tag-checker,新闻室
+>>>>>>> b83ebb06ac02e26262084594f0ac8e7c7ffdf8de

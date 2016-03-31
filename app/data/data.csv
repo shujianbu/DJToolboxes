@@ -1,110 +1,111 @@
 user,repo,html_url,notes,description,watch,star,forks,language
-nytimes,objective-c-style-guide,https://github.com/NYTimes/objective-c-style-guide,新闻室,The Objective-C Style Guide used by The New York Times,287,3839,859,
-guardian,frontend,https://github.com/guardian/frontend,新闻室,Source for theguardian.com,174,3117,320,HTML
-newsapps,beeswithmachineguns,https://github.com/newsapps/beeswithmachineguns,新闻室,A utility for arming (creating) many bees (micro EC2 instances) to attack (load test) targets (web applications).,149,3055,347,Python
-bloombergmedia,whatiscode,https://github.com/BloombergMedia/whatiscode,新闻室,Paul Ford’s “What Is Code?”,102,2569,198,JavaScript
-fivethirtyeight,data,https://github.com/fivethirtyeight/data,新闻室,Data and code behind the stories and interactives at FiveThirtyEight,484,2194,897,Jupyter Notebook
-nprapps,app-template,https://github.com/nprapps/app-template,新闻室,"The NPR visuals team's opinionated project template for client-side apps.",88,1053,150,JavaScript
-voxmedia,meme,https://github.com/voxmedia/meme,新闻室,Meme generator,129,616,205,JavaScript
-propublica,guides,https://github.com/propublica/guides,新闻室,"ProPublica's News App and Data Style Guides",79,414,89,HTML
-timemagazine,babynames,https://github.com/TimeMagazine/babynames,新闻室,"Fun with the Social Security Administration's baby name data",26,190,46,JavaScript
-censusreporter,censusreporter,https://github.com/censusreporter/censusreporter,新闻室,Census Reporter is a Knight News Challenge-funded project to make it easier for journalists to write stories using information from the U.S. Census bureau.,28,136,59,HTML
-datadesk,python-elections,https://github.com/datadesk/python-elections,新闻室,"A Python wrapper for the Associated Press' U.S. election data service.",56,141,30,Python
+nytimes,objective-c-style-guide,https://github.com/NYTimes/objective-c-style-guide,新闻室,The Objective-C Style Guide used by The New York Times,297,3956,895,
+guardian,frontend,https://github.com/guardian/frontend,新闻室,Source for theguardian.com,174,3130,317,HTML
+newsapps,beeswithmachineguns,https://github.com/newsapps/beeswithmachineguns,新闻室,A utility for arming (creating) many bees (micro EC2 instances) to attack (load test) targets (web applications).,143,3084,348,Python
+bloombergmedia,whatiscode,https://github.com/BloombergMedia/whatiscode,新闻室,Paul Ford’s “What Is Code?”,102,2578,201,JavaScript
+fivethirtyeight,data,https://github.com/fivethirtyeight/data,新闻室,Data and code behind the stories and interactives at FiveThirtyEight,509,2315,947,Jupyter Notebook
+nprapps,app-template,https://github.com/nprapps/app-template,新闻室,"The NPR visuals team's opinionated project template for client-side apps.",88,1056,151,JavaScript
+voxmedia,meme,https://github.com/voxmedia/meme,新闻室,Meme generator,133,622,206,JavaScript
+propublica,guides,https://github.com/propublica/guides,新闻室,"ProPublica's News App and Data Style Guides",83,427,91,HTML
+timemagazine,babynames,https://github.com/TimeMagazine/babynames,新闻室,"Fun with the Social Security Administration's baby name data",26,191,47,JavaScript
+censusreporter,censusreporter,https://github.com/censusreporter/censusreporter,新闻室,Census Reporter is a Knight News Challenge-funded project to make it easier for journalists to write stories using information from the U.S. Census bureau.,28,140,59,HTML
+datadesk,python-elections,https://github.com/datadesk/python-elections,新闻室,"A Python wrapper for the Associated Press' U.S. election data service.",56,140,30,Python
 buzzfeednews,2014-06-bikeshare-gender-maps,https://github.com/BuzzFeedNews/2014-06-bikeshare-gender-maps,新闻室,"Data and code for BuzzFeed's bikeshare gender maps.",13,51,24,JavaScript
-huffpostdata,ap-election-loader,https://github.com/huffpostdata/ap-election-loader,新闻室,A Ruby library for loading election data from The Associated Press into MySQL,14,34,23,Ruby
+huffpostdata,ap-election-loader,https://github.com/huffpostdata/ap-election-loader,新闻室,A Ruby library for loading election data from The Associated Press into MySQL,14,34,22,Ruby
 ajam,2014_payday-nation-data,https://github.com/ajam/2014_payday-nation-data,新闻室,Data for the Payday Nation project.,10,22,8,
 dukechronicle,chronline,https://github.com/dukechronicle/chronline,新闻室,The official repository for the Duke Chronicle website,27,17,2,Ruby
-mbostock,d3,https://github.com/mbostock/d3,图表,A JavaScript visualization library for HTML and SVG.,2235,47299,12675,JavaScript
-nnnick,chart.js,https://github.com/nnnick/Chart.js,图表,Simple HTML5 Charts using the <canvas> tag,899,18502,5740,JavaScript
-leaflet,leaflet,https://github.com/Leaflet/Leaflet,"图表, 地图", :leaves: JavaScript library for mobile-friendly interactive maps,685,12976,2345,JavaScript
-ecomfe,echarts,https://github.com/ecomfe/echarts,图表,A powerful charting and visualization library for browser,1057,10703,3837,JavaScript
-gionkunz,chartist-js,https://github.com/gionkunz/chartist-js,图表,Simple responsive charts,302,7754,1038,JavaScript
-jacomyal,sigma.js,https://github.com/jacomyal/sigma.js,图表,A JavaScript library dedicated to graph drawing,285,5944,878,JavaScript
-mozilla,metrics-graphics,https://github.com/mozilla/metrics-graphics,图表,"A library optimized for concise, principled data graphics and layouts.",198,5636,309,JavaScript
-dc-js,dc.js,https://github.com/dc-js/dc.js,"图表,立体",Multi-Dimensional charting built to work natively with crossfilter rendered with d3.js,294,4711,1161,JavaScript
-epochjs,epoch,https://github.com/epochjs/epoch,"图表,实时","A general purpose, real-time visualization library.",203,4451,239,HTML
-vega,vega,https://github.com/vega/vega,图表,A visualization grammar.,249,3953,398,JavaScript
-benpickles,peity,https://github.com/benpickles/peity,图表,"Progressive <svg> pie, donut, bar and line charts",120,3430,317,HTML
-densitydesign,raw,https://github.com/densitydesign/raw,图表,The missing link between spreadsheets and vector graphics,249,3383,665,JavaScript
-matplotlib,matplotlib,https://github.com/matplotlib/matplotlib,图表,matplotlib: plotting with Python,319,3370,1717,Python
-gka,chroma.js,https://github.com/gka/chroma.js,色彩,JavaScript library for all kinds of color manipulations,108,2820,240,CoffeeScript
-samizdatco,arbor,https://github.com/samizdatco/arbor,图表,a graph visualization library using web workers and jQuery,161,2188,543,JavaScript
-boris-em,bemsimplelinegraph,https://github.com/Boris-Em/BEMSimpleLineGraph,"图表,iOS",Elegant Line Graphs for iOS (charting library),91,2027,290,Objective-C
-okfn,recline,https://github.com/okfn/recline,图表,A simple but powerful library for building data applications in pure Javascript and HTML.,130,1814,292,JavaScript
-humblesoftware,envisionjs,https://github.com/HumbleSoftware/envisionjs,图表,Dynamic HTML5 visualization,91,1493,240,JavaScript
-kartograph,kartograph.js,https://github.com/kartograph/kartograph.js,"图表, 地图",Open source JavaScript renderer for Kartograph SVG maps,87,1379,216,JavaScript
-analyticalgraphicsinc,cesium,https://github.com/AnalyticalGraphicsInc/cesium,"图表,WebGL",WebGL virtual globe and map engine,178,1172,690,JavaScript
-stamen,modestmaps-js,https://github.com/stamen/modestmaps-js,"图表,地图",Modest Maps javascript port,61,515,140,JavaScript
-openaddresses,openaddresses,https://github.com/openaddresses/openaddresses,"开放数据,地址",A repository of address data.,54,424,490,JavaScript
-unitedstates,congress-legislators,https://github.com/unitedstates/congress-legislators,"开放数据,政治","Members of the United States Congress, 1789-Present, in YAML, as well as committees, presidents, and vice presidents.",80,390,180,Python
-openexoplanetcatalogue,open_exoplanet_catalogue,https://github.com/OpenExoplanetCatalogue/open_exoplanet_catalogue,"开放数据,天文学",The Open Exoplanet Catalogue,54,276,85,Python
-chicago,food-inspections-evaluation,https://github.com/Chicago/food-inspections-evaluation,"开放数据,检疫",This repository contains the code to generate predictions of critical violations at food establishments in Chicago. It also contains the results of an evaluation of the effectiveness of those predictions.,24,86,38,HTML
-benbalter,congressional-districts,https://github.com/benbalter/congressional-districts,"开放数据,政治,地图","Historic and current US Congressional districts as GeoJSON, versioned within Git",12,78,20,
-cernopendata,opendata.cern.ch,https://github.com/cernopendata/opendata.cern.ch,开放数据,Invenio source code overlay for CERN Open Data Portal,33,62,31,Python
-newsdev,elex,https://github.com/newsdev/elex,"政治,新闻室",A wrapper for the AP v2 Elections API.,39,109,16,Python
-scitools,cartopy,https://github.com/SciTools/cartopy,地图,Cartopy - a cartographic python library with matplotlib support,34,159,74,Python
-coleifer,peewee,https://github.com/coleifer/peewee,SQL,"a small, expressive orm -- supports postgresql, mysql and sqlite",135,2620,445,Python
-buzzfeed-openlab,rss-puppy,https://github.com/buzzfeed-openlab/rss-puppy,新闻室,A watchdog tool for monitoring RSS feeds,12,280,13,JavaScript
-quartz,bad-data-guide,https://github.com/Quartz/bad-data-guide,新闻室,An exhaustive reference to problems seen in real-world data along with suggestions on how to resolve them.,131,2378,149,
-jnordberg,gif.js,https://github.com/jnordberg/gif.js,GIF,JavaScript GIF encoding library,74,1837,161,JavaScript
-cfpb,qu,https://github.com/cfpb/qu,政府,qu is a data platform created to serve public data sets. This is a public domain work of the US Government. ,47,190,50,Clojure
-twitter,labella.js,https://github.com/twitter/labella.js,时间线,Placing labels on a timeline without overlap.,75,3243,88,JavaScript
+mbostock,d3,https://github.com/mbostock/d3,图表,A JavaScript visualization library for HTML and SVG.,2306,48153,12946,JavaScript
+nnnick,chart.js,https://github.com/nnnick/Chart.js,图表,Simple HTML5 Charts using the <canvas> tag,915,18817,5867,JavaScript
+leaflet,leaflet,https://github.com/Leaflet/Leaflet,"图表, 地图", :leaves: JavaScript library for mobile-friendly interactive maps,688,13195,2389,JavaScript
+ecomfe,echarts,https://github.com/ecomfe/echarts,图表,A powerful charting and visualization library for browser,1086,11045,3950,JavaScript
+gionkunz,chartist-js,https://github.com/gionkunz/chartist-js,图表,Simple responsive charts,306,7872,1072,JavaScript
+jacomyal,sigma.js,https://github.com/jacomyal/sigma.js,图表,A JavaScript library dedicated to graph drawing,287,6017,894,JavaScript
+mozilla,metrics-graphics,https://github.com/mozilla/metrics-graphics,图表,"A library optimized for concise, principled data graphics and layouts.",206,5685,311,JavaScript
+dc-js,dc.js,https://github.com/dc-js/dc.js,"图表,立体",Multi-Dimensional charting built to work natively with crossfilter rendered with d3.js,300,4779,1176,JavaScript
+epochjs,epoch,https://github.com/epochjs/epoch,"图表,实时","A general purpose, real-time visualization library.",204,4481,245,HTML
+vega,vega,https://github.com/vega/vega,图表,A visualization grammar.,254,3986,401,JavaScript
+benpickles,peity,https://github.com/benpickles/peity,图表,"Progressive <svg> pie, donut, bar and line charts",121,3464,321,HTML
+densitydesign,raw,https://github.com/densitydesign/raw,图表,The missing link between spreadsheets and vector graphics,253,3416,681,JavaScript
+matplotlib,matplotlib,https://github.com/matplotlib/matplotlib,图表,matplotlib: plotting with Python,327,3445,1763,Python
+gka,chroma.js,https://github.com/gka/chroma.js,色彩,JavaScript library for all kinds of color manipulations,109,2863,243,CoffeeScript
+samizdatco,arbor,https://github.com/samizdatco/arbor,图表,a graph visualization library using web workers and jQuery,163,2203,550,JavaScript
+boris-em,bemsimplelinegraph,https://github.com/Boris-Em/BEMSimpleLineGraph,"图表,移动端",Elegant Line Graphs for iOS (charting library),95,2057,294,Objective-C
+okfn,recline,https://github.com/okfn/recline,图表,A simple but powerful library for building data applications in pure Javascript and HTML.,129,1815,294,JavaScript
+humblesoftware,envisionjs,https://github.com/HumbleSoftware/envisionjs,图表,Dynamic HTML5 visualization,90,1496,243,JavaScript
+kartograph,kartograph.js,https://github.com/kartograph/kartograph.js,"图表, 地图",Open source JavaScript renderer for Kartograph SVG maps,88,1385,215,JavaScript
+analyticalgraphicsinc,cesium,https://github.com/AnalyticalGraphicsInc/cesium,"图表,WebGL",WebGL virtual globe and map engine,185,1194,708,JavaScript
+stamen,modestmaps-js,https://github.com/stamen/modestmaps-js,"图表,地图",Modest Maps javascript port,61,515,144,JavaScript
+openaddresses,openaddresses,https://github.com/openaddresses/openaddresses,"开放数据,地址",A repository of address data.,67,479,500,JavaScript
+unitedstates,congress-legislators,https://github.com/unitedstates/congress-legislators,"开放数据,政治","Members of the United States Congress, 1789-Present, in YAML, as well as committees, presidents, and vice presidents.",81,401,188,Python
+openexoplanetcatalogue,open_exoplanet_catalogue,https://github.com/OpenExoplanetCatalogue/open_exoplanet_catalogue,"开放数据,天文学",The Open Exoplanet Catalogue,57,288,86,Python
+chicago,food-inspections-evaluation,https://github.com/Chicago/food-inspections-evaluation,"开放数据,检疫",This repository contains the code to generate predictions of critical violations at food establishments in Chicago. It also contains the results of an evaluation of the effectiveness of those predictions.,25,97,41,HTML
+benbalter,congressional-districts,https://github.com/benbalter/congressional-districts,"开放数据,政治,地图","Historic and current US Congressional districts as GeoJSON, versioned within Git",12,79,21,
+cernopendata,opendata.cern.ch,https://github.com/cernopendata/opendata.cern.ch,开放数据,Invenio source code overlay for CERN Open Data Portal,35,68,32,Python
+newsdev,elex,https://github.com/newsdev/elex,"政治,新闻室",A wrapper for the AP v2 Elections API.,40,116,17,Python
+scitools,cartopy,https://github.com/SciTools/cartopy,地图,Cartopy - a cartographic python library with matplotlib support,33,167,78,Python
+coleifer,peewee,https://github.com/coleifer/peewee,数据库,"a small, expressive orm -- supports postgresql, mysql and sqlite",132,2682,462,Python
+buzzfeed-openlab,rss-puppy,https://github.com/buzzfeed-openlab/rss-puppy,新闻室,A watchdog tool for monitoring RSS feeds,12,286,14,JavaScript
+quartz,bad-data-guide,https://github.com/Quartz/bad-data-guide,新闻室,An exhaustive reference to problems seen in real-world data along with suggestions on how to resolve them.,134,2419,152,
+jnordberg,gif.js,https://github.com/jnordberg/gif.js,GIF,JavaScript GIF encoding library,74,1854,162,JavaScript
+cfpb,qu,https://github.com/cfpb/qu,政府,qu is a data platform created to serve public data sets. This is a public domain work of the US Government. ,47,194,53,Clojure
+twitter,labella.js,https://github.com/twitter/labella.js,时间线,Placing labels on a timeline without overlap.,73,3261,89,JavaScript
 gsa,govt-urls,https://github.com/GSA/govt-urls,政府,"Most government websites end in .gov or .mil, but many do not. Allows you to tap into USA.gov's list of government URLs that don't end in .gov or .mil.",20,27,3,Ruby
-hadley,data-movies,https://github.com/hadley/data-movies,电影,Download data from IMDB movies and parse into useful form,6,63,14,Ruby
-18f,open-data-maker,https://github.com/18F/open-data-maker,政府,make it easy to turn a lot of potentially large csv files into easily accessible open data,87,122,84,Ruby
-developmentseed,landsat-util,https://github.com/developmentseed/landsat-util,地图,"A utility to search, download and process Landsat 8 satellite imagery",76,332,79,Python
-bendc,animateplus,https://github.com/bendc/animateplus,动画,CSS and SVG animation library,71,1931,102,JavaScript
-museumofmodernart,collection,https://github.com/MuseumofModernArt/collection,艺术,The Museum of Modern Art (MoMA) collection data,59,613,88,
-jlevy,the-art-of-command-line,https://github.com/jlevy/the-art-of-command-line,教程,"Master the command line, in one page",1073,25791,2316,
-cartodb,cartodb,https://github.com/CartoDB/cartodb,地图,Location Intelligence & Data Visualization tool,164,1071,264,Ruby
-rstudio,ggvis,https://github.com/rstudio/ggvis,R语言,Interactive grammar of graphics for R,110,515,147,R
-18f,analytics-reporter,https://github.com/18F/analytics-reporter,数据分析,"Lightweight analytics reporting and publishing tool for Google Analytics data. Powers https://analytics.usa.gov, http://analytics.phila.gov, and more.",27,295,67,JavaScript
-dkahle,ggmap,https://github.com/dkahle/ggmap,地图,a package for plotting maps in R with ggplot2,24,155,71,R
-geolicious,qgis2leaf,https://github.com/Geolicious/qgis2leaf,"地图,QGIS",A QGIS plugin to create a working leaflet based webmap from it,24,115,27,Python
-alex,what-happens-when,https://github.com/alex/what-happens-when,玩乐,"An attempt to answer the age old interview question ""What happens when you type google.com into your browser and press enter?""",525,9553,662,
-hadley,rvest,https://github.com/hadley/rvest,数据抓取,Simple web scraping for R,59,504,136,R
-mattboldt,typed.js,https://github.com/mattboldt/typed.js,jquery,A jQuery typing animation script.,83,2017,386,JavaScript
-davidmerfield,typeset,https://github.com/davidmerfield/Typeset,字体,An html pre-proces­sor for web ty­pog­ra­phy,53,2070,43,JavaScript
-edwardtufte,tufte-css,https://github.com/edwardtufte/tufte-css,CSS,Style your webpage like Edward Tufte’s handouts.,74,2261,151,HTML
-tiimgreen,github-cheat-sheet,https://github.com/tiimgreen/github-cheat-sheet,教程,A list of cool features of Git and GitHub.,929,18172,2038,
+hadley,data-movies,https://github.com/hadley/data-movies,电影,Download data from IMDB movies and parse into useful form,7,68,14,Ruby
+18f,open-data-maker,https://github.com/18F/open-data-maker,政府,make it easy to turn a lot of potentially large csv files into easily accessible open data,88,126,89,Ruby
+developmentseed,landsat-util,https://github.com/developmentseed/landsat-util,地图,"A utility to search, download and process Landsat 8 satellite imagery",77,340,81,Python
+bendc,animateplus,https://github.com/bendc/animateplus,动画,CSS and SVG animation library,75,1978,103,JavaScript
+museumofmodernart,collection,https://github.com/MuseumofModernArt/collection,艺术,The Museum of Modern Art (MoMA) collection data,61,616,87,
+jlevy,the-art-of-command-line,https://github.com/jlevy/the-art-of-command-line,教程,"Master the command line, in one page",1087,26032,2359,
+cartodb,cartodb,https://github.com/CartoDB/cartodb,地图,Location Intelligence & Data Visualization tool,166,1092,272,Ruby
+rstudio,ggvis,https://github.com/rstudio/ggvis,R语言,Interactive grammar of graphics for R,111,523,149,R
+18f,analytics-reporter,https://github.com/18F/analytics-reporter,数据分析,"Lightweight analytics reporting and publishing tool for Google Analytics data. Powers https://analytics.usa.gov, http://analytics.phila.gov, and more.",26,295,72,JavaScript
+dkahle,ggmap,https://github.com/dkahle/ggmap,地图,a package for plotting maps in R with ggplot2,25,166,72,R
+geolicious,qgis2leaf,https://github.com/Geolicious/qgis2leaf,"地图,QGIS",A QGIS plugin to create a working leaflet based webmap from it,25,115,28,Python
+alex,what-happens-when,https://github.com/alex/what-happens-when,玩乐,"An attempt to answer the age old interview question ""What happens when you type google.com into your browser and press enter?""",533,9692,680,
+hadley,rvest,https://github.com/hadley/rvest,数据抓取,Simple web scraping for R,62,524,143,R
+mattboldt,typed.js,https://github.com/mattboldt/typed.js,jquery,A jQuery typing animation script.,85,2126,404,JavaScript
+davidmerfield,typeset,https://github.com/davidmerfield/Typeset,字体,An html pre-proces­sor for web ty­pog­ra­phy,56,2092,45,JavaScript
+edwardtufte,tufte-css,https://github.com/edwardtufte/tufte-css,CSS,Style your webpage like Edward Tufte’s handouts.,78,2325,154,HTML
+tiimgreen,github-cheat-sheet,https://github.com/tiimgreen/github-cheat-sheet,教程,A list of cool features of Git and GitHub.,937,18329,2092,
 newsdev,odf,https://github.com/newsdev/odf,奥林匹克,Scripts and tools to help in parsing the Olympic Data Feed from the International Olympic Committee,34,7,2,Ruby
-herrbischoff,awesome-osx-command-line,https://github.com/herrbischoff/awesome-osx-command-line,教程,Use your OS X terminal shell to do awesome things.,278,7202,325,
-jprobinson,newshound,https://github.com/jprobinson/newshound,新闻室,Newshound: The Breaking News Email Aggregator,3,45,6,Go
-ether,etherpad-lite,https://github.com/ether/etherpad-lite,文本编辑,Etherpad: Really real-time collaborative document editing,332,5336,1202,JavaScript
-quartz,chartbuilder,https://github.com/Quartz/Chartbuilder,"新闻室,图表",,114,1736,281,JavaScript
-twitter,twemoji,https://github.com/twitter/twemoji,玩乐,Twitter Emoji for Everyone,217,4434,469,JavaScript
-jlord,sheetsee.js,https://github.com/jlord/sheetsee.js,图表,:eyes: :chart_with_upwards_trend: Visualize Data from a Google Spreadsheet,224,1896,351,JavaScript
-arvida,emoji-cheat-sheet.com,https://github.com/arvida/emoji-cheat-sheet.com,玩乐,A one pager for emojis on Campfire and GitHub,184,3425,933,HTML
+herrbischoff,awesome-osx-command-line,https://github.com/herrbischoff/awesome-osx-command-line,教程,Use your OS X terminal shell to do awesome things.,290,7322,334,
+jprobinson,newshound,https://github.com/jprobinson/newshound,新闻室,Newshound: The Breaking News Email Aggregator,3,46,7,Go
+ether,etherpad-lite,https://github.com/ether/etherpad-lite,文本编辑,Etherpad: Really real-time collaborative document editing,336,5370,1206,JavaScript
+quartz,chartbuilder,https://github.com/Quartz/Chartbuilder,"新闻室,图表",,115,1744,286,JavaScript
+twitter,twemoji,https://github.com/twitter/twemoji,玩乐,Twitter Emoji for Everyone,222,4581,482,JavaScript
+jlord,sheetsee.js,https://github.com/jlord/sheetsee.js,图表,:eyes: :chart_with_upwards_trend: Visualize Data from a Google Spreadsheet,229,1907,366,JavaScript
+arvida,emoji-cheat-sheet.com,https://github.com/arvida/emoji-cheat-sheet.com,玩乐,A one pager for emojis on Campfire and GitHub,182,3518,965,HTML
 nuknightlab,soundcite,https://github.com/NUKnightLab/soundcite,声音,Making Inline Audio Easy and Seamless,22,98,21,HTML
-nytlabs,streamtools,https://github.com/nytlabs/streamtools,新闻室,tools for working with streams of data,85,1271,112,Go
-nprapps,pym.js,https://github.com/nprapps/pym.js,新闻室,Resize an iframe responsively depending on the height of its content and the width of its container.,48,481,72,HTML
-nprapps,dailygraphics,https://github.com/nprapps/dailygraphics,图表,"NPR Visuals' rig for deploying daily graphics projects in responsive iframes.",38,166,27,JavaScript
-nprapps,bestpractices,https://github.com/nprapps/bestpractices,新闻室,Best practices and coding conventions for the NPR Visuals team.,40,227,27,
-buzzfeednews,zika-data,https://github.com/BuzzFeedNews/zika-data,寨卡病毒,Data — and pointers to data — related to the 2015–16 Zika virus outbreak.,18,54,17,Python
-pippinlee,open-journalism-project,https://github.com/pippinlee/open-journalism-project,开放数据,Resource to bring code and journalism together for fun,5,18,10,HTML
-ajam,pulp,https://github.com/ajam/pulp,玩乐,A vivacious viewer for web comics.,10,78,6,JavaScript
-buzzfeednews,everything,https://github.com/BuzzFeedNews/everything,新闻室,"An index of all our open-source data, analysis, libraries, tools, and guides.",28,103,11,
-nytimes,nytphotoviewer,https://github.com/NYTimes/NYTPhotoViewer,新闻室,A modern photo viewing experience for iOS.,55,1345,136,Objective-C
-nytimes,svg-crowbar,https://github.com/NYTimes/svg-crowbar,SVG,Extracts an SVG node and accompanying styles from an HTML document and allows you to download it all as an SVG file.,35,372,79,JavaScript
-nytimes,pourover,https://github.com/NYTimes/pourover,新闻室,"A library for simple, fast filtering and sorting of large collections in the browser.   There is a community-maintained fork that addresses a handful of post-NYT issues available via @hhsnopek's https://github.com/hhsnopek/pourover",90,2391,129,JavaScript
-nytimes,emphasis,https://github.com/NYTimes/Emphasis,新闻室,Dynamic Deep-Linking and Highlighting,25,547,59,JavaScript
-haoyuns,eyesasia,https://github.com/HaoyunS/EyesAsia,地图,"A font if you need tiny shapes for China's provinces or east Asian countries as a design element.",14,168,19,CSS
-nemotyrant,manong,https://github.com/nemoTyrant/manong,资源集,码农周刊整理,489,2990,706,PLSQL
-alexazhou,verynginx,https://github.com/alexazhou/VeryNginx,网络运营," A very powerful and friendly  nginx base on lua-nginx-module( openresty ) which provide WAF, Control Panel, and Dashboards. 功能强大且拥有对人类友好界面的Nginx，提供防火墙，自定义行为，和统计功能",81,1338,143,HTML
-chengyin,whatfont-bookmarklet,https://github.com/chengyin/WhatFont-Bookmarklet,字体,The core of WhatFont Tool,15,318,41,JavaScript
-sofish,typo.css,https://github.com/sofish/typo.css,排版,中文网页重设与排版：一致化浏览器排版效果，构建最适合中文阅读的网页排版,139,1895,417,HTML
-dropbox,zxcvbn,https://github.com/dropbox/zxcvbn,密码,A realistic password strength estimator.,165,5014,326,CoffeeScript
-yahoo,gifshot,https://github.com/yahoo/gifshot,GIF,"  JavaScript library that can create animated GIFs from media streams, videos, or images",82,2406,167,JavaScript
-amfe,lib-flexible,https://github.com/amfe/lib-flexible,移动端,可伸缩布局方案,219,1626,533,JavaScript
-cn,cn.github.io,https://github.com/cn/cn.github.io,开放数据,CN 开放数据计划,25,21,5,CSS
-qiao,pathfinding.js,https://github.com/qiao/PathFinding.js,路径,A comprehensive path-finding library for grid based games,210,4358,521,JavaScript
+nytlabs,streamtools,https://github.com/nytlabs/streamtools,新闻室,tools for working with streams of data,84,1276,112,Go
+nprapps,pym.js,https://github.com/nprapps/pym.js,新闻室,Resize an iframe responsively depending on the height of its content and the width of its container.,49,499,72,JavaScript
+nprapps,dailygraphics,https://github.com/nprapps/dailygraphics,图表,"NPR Visuals' rig for deploying daily graphics projects in responsive iframes.",41,179,28,JavaScript
+nprapps,bestpractices,https://github.com/nprapps/bestpractices,新闻室,Best practices and coding conventions for the NPR Visuals team.,41,227,27,
+buzzfeednews,zika-data,https://github.com/BuzzFeedNews/zika-data,寨卡病毒,Data — and pointers to data — related to the 2015–16 Zika virus outbreak.,18,58,15,Python
+pippinlee,open-journalism-project,https://github.com/pippinlee/open-journalism-project,开放数据,Resource to bring code and journalism together for fun,5,19,10,HTML
+ajam,pulp,https://github.com/ajam/pulp,玩乐,A vivacious viewer for web comics.,10,79,6,JavaScript
+buzzfeednews,everything,https://github.com/BuzzFeedNews/everything,新闻室,"An index of all our open-source data, analysis, libraries, tools, and guides.",28,107,11,
+nytimes,nytphotoviewer,https://github.com/NYTimes/NYTPhotoViewer,新闻室,A modern photo viewing experience for iOS.,57,1393,149,Objective-C
+nytimes,svg-crowbar,https://github.com/NYTimes/svg-crowbar,SVG,Extracts an SVG node and accompanying styles from an HTML document and allows you to download it all as an SVG file.,36,379,81,JavaScript
+nytimes,pourover,https://github.com/NYTimes/pourover,新闻室,"A library for simple, fast filtering and sorting of large collections in the browser.   There is a community-maintained fork that addresses a handful of post-NYT issues available via @hhsnopek's https://github.com/hhsnopek/pourover",89,2398,129,JavaScript
+nytimes,emphasis,https://github.com/NYTimes/Emphasis,新闻室,Dynamic Deep-Linking and Highlighting,24,550,62,JavaScript
+haoyuns,eyesasia,https://github.com/haoyuns/EyesAsia,地图,"A font if you need tiny shapes for China's provinces or east Asian countries as a design element.",14,169,19,CSS
+nemotyrant,manong,https://github.com/nemoTyrant/manong,资源集,码农周刊整理,493,3020,720,PLSQL
+alexazhou,verynginx,https://github.com/alexazhou/VeryNginx,网络运营," A very powerful and friendly  nginx base on lua-nginx-module( openresty ) which provide WAF, Control Panel, and Dashboards. 功能强大且拥有对人类友好界面的Nginx，提供防火墙，自定义行为，和统计功能",85,1397,152,HTML
+chengyin,whatfont-bookmarklet,https://github.com/chengyin/WhatFont-Bookmarklet,字体,The core of WhatFont Tool,15,320,41,JavaScript
+sofish,typo.css,https://github.com/sofish/typo.css,排版,中文网页重设与排版：一致化浏览器排版效果，构建最适合中文阅读的网页排版,140,1927,423,HTML
+dropbox,zxcvbn,https://github.com/dropbox/zxcvbn,密码,A realistic password strength estimator.,166,5092,330,CoffeeScript
+yahoo,gifshot,https://github.com/yahoo/gifshot,GIF,"  JavaScript library that can create animated GIFs from media streams, videos, or images",83,2432,171,JavaScript
+amfe,lib-flexible,https://github.com/amfe/lib-flexible,移动端,可伸缩布局方案,236,1782,577,JavaScript
+cn,cn.github.io,https://github.com/cn/cn.github.io,开放数据,CN 开放数据计划,23,22,6,CSS
+qiao,pathfinding.js,https://github.com/qiao/PathFinding.js,路径,A comprehensive path-finding library for grid based games,214,4401,532,JavaScript
 yyx990803,awesome,https://github.com/yyx990803/awesome,资源集,A curated list of awesome lists,1,3,2,
-ecomfe,fonteditor,https://github.com/ecomfe/fonteditor,文本编辑,在线字体编辑器,34,124,35,JavaScript
-jacksontian,fks,https://github.com/JacksonTian/fks,资源集,前端技能汇总 Frontend Knowledge Structure,1018,6353,2449,JavaScript
-pissang,qtek,https://github.com/pissang/qtek,WebGL,WebGL graphic library,44,253,51,JavaScript
-sparanoid,chinese-copywriting-guidelines,https://github.com/sparanoid/chinese-copywriting-guidelines,排版,Chinese Copywriting Guidelines / 中文文案排版指北,102,1522,207,CoffeeScript
-aui,font-spider,https://github.com/aui/font-spider,字体,中文 WebFont 自动化压缩工具,88,1432,196,JavaScript
+ecomfe,fonteditor,https://github.com/ecomfe/fonteditor,文本编辑,在线字体编辑器,33,132,37,JavaScript
+jacksontian,fks,https://github.com/JacksonTian/fks,资源集,前端技能汇总 Frontend Knowledge Structure,1066,6623,2565,JavaScript
+pissang,qtek,https://github.com/pissang/qtek,WebGL,WebGL graphic library,44,256,54,JavaScript
+sparanoid,chinese-copywriting-guidelines,https://github.com/sparanoid/chinese-copywriting-guidelines,排版,Chinese Copywriting Guidelines / 中文文案排版指北,104,1580,210,CoffeeScript
+aui,font-spider,https://github.com/aui/font-spider,字体,中文 WebFont 自动化压缩工具,91,1485,199,JavaScript
 WSJ,pinpoint-editor,https://github.com/WSJ/pinpoint-editor,地图,Web app for quickly creating and editing Pinpoint maps,13,25,2,JavaScript
-WSJ,cardkit-watermark,https://github.com/WSJ/cardkit-watermark,新闻室,User-friendly web app for quickly cropping and adding credits to images for social media,27,5,1,JavaScript
+WSJ,cardkit-watermark,https://github.com/WSJ/cardkit-watermark,新闻室,User-friendly web app for quickly cropping and adding credits to images for social media.,27,5,1,JavaScript
 WSJ,squaire,https://github.com/WSJ/squaire,地图,Javascript library to create equal-area square cartograms using d3.js,15,45,2,JavaScript
-WSJ,the-meta-tag-checker,https://github.com/WSJ/the-meta-tag-checker,新闻室,Easy-to-configure social-media meta tag checker and validator,13,11,0,JavaScript
+WSJ,the-meta-tag-checker,https://github.com/WSJ/the-meta-tag-checker,新闻室,Easy-to-configure social-media meta tag checker and validator.,13,11,0,PHP
+WSJ,the-meta-tag-checker,https://github.com/WSJ/the-meta-tag-checker,新闻室,Easy-to-configure social-media meta tag checker and validator.,13,11,0,PHP
