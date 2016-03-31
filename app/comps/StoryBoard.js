@@ -131,7 +131,6 @@ class StoryBoard extends React.Component {
 
   // <CardText className='desc'>{this.state.data.desc}</CardText>
 
-
   render() {
     return (
       <Card className='storyBoard'>

@@ -96,7 +96,7 @@ class FiltersSection extends React.Component {
         <ToolbarGroup key={1} float='right' className = 'about'>
           <FlatButton label="关于" style={{}} onTouchTap={this.handleOpen.bind(this)} />
           <Dialog
-            title='案例库'
+            title='工具箱'
             actions={actions}
             modal={false}
             open={this.state.open}
