@@ -141,7 +141,7 @@ a:hover {
 }
 
 @media screen and (max-width: 880px) {
-  .numSec {
+  .octSec {
     visibility: hidden;
   }
 }
