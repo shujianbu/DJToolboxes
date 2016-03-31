@@ -129,7 +129,7 @@ class StoryBoard extends React.Component {
     return ret;
   }
 
-  // <CardText className='desc'>{this.state.data.desc}</CardText>
+
 
   render() {
     return (
@@ -138,7 +138,8 @@ class StoryBoard extends React.Component {
         title=<a href={'https://github.com/' + this.state.data.user + '/' + this.state.data.title} target='_blank'>{this.state.data.title}</a>
         subtitle=<a href={'https://github.com/' + this.state.data.user} target='_blank'>{this.state.data.name}</a>
         avatar={this.state.data.logo}
-        showExpandableButton={false} />
+        actAsExpander={true}
+        showExpandableButton={true} />
 
         <CardActions className='numSec'>
 
@@ -176,6 +177,10 @@ class StoryBoard extends React.Component {
           </div>
 
         </CardActions>
+
+        <CardText expandable={true}>
+            Description: {this.state.data.desc}
+        </CardText>
 
       </Card>
     );

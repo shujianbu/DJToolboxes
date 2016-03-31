@@ -157,10 +157,6 @@ a:hover {
     max-height: 0px;
   }
 
-  .storyBoard {
-    height: 70px;
-  }
-
   .storyBoard a{
     text-overflow: ellipsis;
   }
