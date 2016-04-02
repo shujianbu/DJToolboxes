@@ -107,8 +107,5 @@
 106,WSJ,pinpoint-editor,地图
 107,WSJ,cardkit-watermark,新闻室
 108,WSJ,squaire,地图
-<<<<<<< HEAD
 109,WSJ,the-meta-tag-checker,新闻室
-=======
-109,WSJ,the-meta-tag-checker,新闻室
->>>>>>> b83ebb06ac02e26262084594f0ac8e7c7ffdf8de
+110,dataproofer,Dataproofer,数据验证
