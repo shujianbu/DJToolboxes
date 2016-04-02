@@ -141,7 +141,7 @@ a:hover {
 }
 
 @media screen and (max-width: 880px) {
-  .numSec {
+  .octSec {
     visibility: hidden;
   }
 }
@@ -155,10 +155,6 @@ a:hover {
 @media screen and (max-width: 500px) {
   .nav-bar {
     max-height: 0px;
-  }
-
-  .storyBoard {
-    height: 70px;
   }
 
   .storyBoard a{
