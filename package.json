@@ -23,7 +23,7 @@
     "tools",
     "数据新闻"
   ],
-  "author": "Shujian Bu",
+  "author": "Shujian Bu, Yelin Hong",
   "bugs": {
     "url": "https://github.com/shujianbu/DJToolboxes/issues"
   },
@@ -44,7 +44,6 @@
     "css-loader": "^0.23.1",
     "dsv-loader": "^1.0.3",
     "file-loader": "^0.8.5",
-    "git-config": "0.0.7",
     "material-ui": "^0.14.1",
     "react": "^0.14.6",
     "react-addons": "^0.9.0",
